@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Generated vector database
+vector_db/
+
+# Notebook cache
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
