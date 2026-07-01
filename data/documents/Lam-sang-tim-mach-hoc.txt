@@ -1,0 +1,2665 @@
+
+
+Copyright © 2019 Viện Tim mạch Việt Nam
+Xuất bản theo hợp đồng sử dụng tác phẩm giữa Viện Tim mạch Việt Nam - 
+Bệnh viện Bạch Mai và Công ty cổ phần công nghệ truyền thông MediaZ, 2019.
+Bản quyền tác phẩm đã được bảo hộ.
+Nghiêm cấm in sao và phát hành dưới mọi hình thức nếu không có sự cho phép bằng
+văn bản của Viện Tim mạch Việt Nam - Bệnh viện Bạch Mai.
+
+
+LỜI GIỚI THIỆU
+ 
+K
+hi còn nhỏ tuổi, người thầy thuốc được tôi hình dung là có thể giải quyết 
+mọi bệnh nan y với chiếc áo blu trắng, cái ống nghe, sau lưng là một tủ 
+kính chứa đầy dụng cụ y học, sách vở, mà chỉ cần đọc qua là các hướng điều trị đã 
+xuất hiện rồi… Sau này, tôi thấy ngoài việc chữa bệnh, người thầy thuốc còn phải 
+phòng được bệnh, lo sao cho cộng đồng được ăn ở sạch và phải dạy cho đồng 
+nghiệp, sao cho con người có một cuộc sống vật chất và tinh thần thật thỏa mái, 
+theo tinh thần của tuyên ngôn Alma Ata (Kazakhstan-1978).
+Với tinh thần đó, tôi đã đón nhận tập tài liệu do các bác sĩ công tác tại Viện 
+Tim mạch với sự hồ hởi của một người làm tim mạch dành cho đồng nghiệp của 
+mình. Một lần nữa, tôi xin cảm ơn Viện trưởng Phạm Mạnh Hùng, người đã dành 
+tâm huyết cho tập tài liệu này được ra đời và tất cả những anh chị em đã góp phần 
+xứng đáng của mình cho "LÂM SÀNG TIM MẠCH HỌC", có thể gọi đây là một "Cuốn 
+sách Giáo khoa" về tim mạch, hay đúng hơn, một "Cuốn sách chuyên đề" (Traité). 
+Nhiều vấn đề về tim mạch của người trưởng thành đã được cuốn sách đề cập 
+đến, các tác giả là những người theo dõi sát sao người bệnh, đã có điều kiện áp 
+dụng các biện pháp chẩn đoán, điều trị kinh điển và hiện đại. Họ đã có điều kiện, 
+thời gian cần thiết để đánh giá các phương pháp đã sử dụng. Tôi đánh giá cao điều 
+này, vì thấy rõ qua lâm sàng: Thực tế là thước đo đáng tin cậy nhất.
+Khi trình bày một vấn đề với đầy đủ mọi khía cạnh và tập hợp ý kiến của nhiều 
+tác giả thì rất khó tìm được sự cô đọng, ngắn gọn, cũng như sau nhiều năm học, 
+phải lao tâm khổ tứ nhưng bản lĩnh của một học viên có khi chỉ được thể hiện trong 
+một tình huống nhất định thôi. Cuốn sách này có một ưu điểm là đã nêu được tên 
+những tác giả chính đã góp phần vào việc xây dựng nền Y học ngày nay nhưng theo 
+tôi, không nên bỏ qua một số tác giả Việt Nam, ví dụ Giáo sư Đặng Văn Chung tác 
+giả của "Bệnh học Tim Mạch" do Bộ Y tế xuất bản: Chúng ta tiến bộ là đã biết đứng 
+trên vai người khác, tác giả Việt Nam đã biết đúc kết kinh nghiệm Việt Nam đã được 
+kiểm chứng, thì cũng đáng được đứng trên vai chứ?
+Tôi rất trân trọng cuốn sách này và xin phép giới thiệu với bạn đọc để chúng 
+ta tham khảo.
+GS.TSYH. Phạm Gia Khải
+NGND.AHLĐ. Nguyên Viện trưởng viện Tim mạch Việt Nam
+Nguyên Chủ tịch hội Tim mạch học Việt Nam
+Nguyên chủ nhiệm bộ môn Tim Mạch, trường đại học Y Hà Nội
+
+
+
+
+LỜI NÓI ĐẦU
+B
+ệnh lý tim mạch đã và đang là nguyên nhân gây ra tử vong hàng đầu và là gánh 
+nặng bệnh tật lớn nhất trên thế giới cũng như ở Việt Nam. 
+Chuyên ngành Tim mạch cũng đã trở thành một chuyên ngành y học lớn, bên cạnh 
+khoa học lâm sàng tim mạch cơ bản, đã hình thành rất nhiều các chuyên ngành sâu như tăng 
+huyết áp, suy tim, bệnh động mạch vành, bệnh tim bẩm sinh, tim mạch can thiệp, thăm dò 
+điện sinh lý, chẩn đoán hình ảnh… Trong số đó, có rất nhiều các chuyên ngành sâu đã phát 
+triển rất mạnh liên quan đến các kỹ thuật mới, hiện đại trong chẩn đoán và điều trị bệnh. 
+Những tiến bộ mạnh mẽ trong chẩn đoán, điều trị và phòng bệnh cũng đã giúp cải thiện 
+đáng kể tiên lượng bệnh cũng như làm thay đổi quá trình diễn tiến bệnh tật. 
+Với sự phát triển nói trên của chuyên ngành đòi hỏi người thầy thuốc nói chung và thầy 
+thuốc tim mạch nói riêng cần có những hiểu biết sâu rộng hơn, cập nhật không ngừng và có 
+sự hội nhập giữa các chuyên ngành sâu cũng như với các chuyên ngành khác. Bên cạnh đó 
+những vấn đề liên quan đến khoa học cơ bản như sinh học phân tử, di truyền, cơ chế bệnh 
+sinh, các nguyên lý sinh học hiện đại, hóa sinh học, vật lý sinh học… trong các phương tiện 
+hiện đại cũng rất cần được nắm bắt và hiểu rõ, giúp cho việc chẩn đoán và điều trị bệnh được 
+hiệu quả hơn. 
+Trong thời đại hiện nay, với sự bùng nổ thông tin, nhiều nguồn tài liệu tham khảo 
+khiến cho các thầy thuốc trở lên bối rối trong cách tiếp cận thông tin, đặc biệt trong các 
+chuyên ngành sâu. Những tài liệu ngắn gọn, mang tính thực hành cao, xuất phát từ chính 
+kinh nghiệm và nhu cầu thực tế và dễ áp dụng trong lâm sàng là một đòi hỏi chính đáng. Bên 
+cạnh đó, trong các cơ sở thực hành chuyên môn, cần có sự thống nhất chung phương pháp 
+chẩn đoán và điều trị bệnh. Một tài liệu mang tính hướng dẫn thực hành được đồng thuận và 
+phê duyệt bởi Hội đồng Khoa học sẽ là cơ sở cho phép áp dụng triển khai những biện pháp 
+thống nhất mang lại lợi ích tối đa cho người bệnh, tránh được những định kiến cá nhân.
+Đó cũng là những lý do chính để ra đời của cuốn sách này.
+Ban biên soạn đã tập hợp trí tuệ tập thể của các nhà khoa học là các Giáo sư/Phó Giáo 
+sư/Tiến sĩ/Bác sĩ nội trú đầu ngành có nhiều kinh nghiệm trong chuyên ngành Tim mạch với 
+các lĩnh vực rất chuyên sâu mà nòng cốt là từ Viện Tim mạch Việt Nam, một Viện chuyên khoa 
+đầu ngành Tim mạch trong cả nước cũng như trong khu vực. Một điều rất đặc biệt là trong 
+ban biên soạn cũng bao gồm một số các bác sĩ nội trú trẻ chuyên ngành Tim mạch cùng tham 
+gia và điều đó có ý nghĩa là các nội dung và định dạng của sách được theo sát và bao phủ nhu 
+cầu thực tế của bạn đọc và đồng nghiệp. 
+Cuốn sách đã được biên soạn như một cuốn cẩm nang, hướng dẫn thực hành lâm sàng 
+trong lĩnh vực tim mạch. Cấu trúc của sách bao gồm các chương về bệnh tim mạch thường 
+gặp với các phác đồ, sơ đồ tiếp cận một cách ngắn gọn, chính xác dễ hiểu. Bên cạnh đó, có 
+các chương về các thủ thuật và thuốc thường dùng trong tim mạch giúp dễ dàng tra cứu và 
+áp dụng trong thực tế điều trị. Chương mở đầu sẽ giới thiệu sơ lược về các mốc lịch sử trong 
+chuyên ngành Tim mạch và gánh nặng bệnh tim mạch toàn cầu với mong muốn khơi dậy 
+niềm đam mê cũng như trách nhiệm về chuyên ngành Tim mạch cho các bác sĩ chuyên khoa 
+cũng như các bác sĩ khác tham khảo. Cũng không thể không nhắc đến sự tích hợp của chuyên 
+ngành Tim mạch với các chuyên ngành Nội khoa khác ở các chương về bệnh tim mạch với các 
+
+
+bệnh nội khoa. Lần đầu tiên, đây là một tài liệu chuyên môn đã tích hợp với định danh bệnh 
+theo mã ICD, giúp cho các bác sĩ tiện tra cứu. 
+Các tác giả biên soạn sách này đã tham khảo, chắt lọc những tinh hoa về kiến thức cũng 
+như cách định dạng của các cuốn sách nổi tiếng về lâm sàng trên thế giới như cuốn "Oxford 
+Handbook of Cardiovascular Medicine", "Manual of Cardiovascular Medicine", "Harrison's 
+Handbook of Cardiovascular Medicine"... bên cạnh đó, các đồng thuận, khuyến cáo mới nhất 
+của các Hội Tim mạch trên thế giới như ESC, ACC/AHA... được tích hợp và cập nhật. Phần quan 
+trọng nhất chính là kinh nghiệm, kiến thức và các trường hợp lâm sàng trong thực tế hằng 
+ngày của các thầy thuốc từ Viện Tim mạch Việt Nam đã được tinh lọc trong cuốn sách. 
+Tập thể các nhà khoa học biên soạn cuốn sách được thành lập theo quyết định số 4105/
+QĐ-BYT của Bộ Y tế và được thẩm định bởi một Hội đồng Khoa học uy tín với các nhà khoa 
+học đầu ngành trong lĩnh vực tim mạch trong toàn quốc theo quyết định số 213/GM-KCB của 
+Cục Quản lý Khám, chữa bệnh - Bộ Y tế.
+Do vậy, chúng tôi có cơ sở và tin tưởng cuốn sách "LÂM SÀNG TIM MẠCH HỌC" sẽ mang 
+đến cho các bạn những thông tin khoa học, cập nhật và thực hành nhất và giúp các bác sĩ dễ 
+dàng áp dụng trong công tác khám chữa bệnh tim mạch thường ngày.
+Cuốn sách này cũng sẽ được phát hành dưới dạng ebook trên các nền tảng ứng dụng 
+internet, đây cũng là một cách hội nhập hiệu quả trong thời đại 4.0 hiện nay, giúp cho nhiều 
+bạn đọc ở mọi nơi, mọi lúc, bằng nhiều phương tiện có thể dễ dàng tiếp cận với sách. Hơn 
+nữa, cuốn sách sẽ dễ dàng được cập nhật hằng năm. 
+Chúng tôi cũng rất tự hào và tin tưởng rằng cuốn sách là một công trình đặc biệt có ý 
+nghĩa của tập thể các nhà khoa học của Viện Tim mạch Việt Nam để chào mừng 30 năm ngày 
+thành lập Viện (1989 - 2019).
+Khoa học thay đổi không ngừng, những thông tin trong sách đã được đội ngũ biên 
+soạn cập nhật mới nhất, với nỗ lực cao nhất. Tuy nhiên, cuốn sách khó tránh khỏi những thiếu 
+sót nhất định. Do vậy, chúng tôi rất mong sự đóng góp của các độc giả, các đồng nghiệp để 
+cuốn sách được hoàn thiện hơn trong những lần tái bản tiếp theo.
+Nhân dịp hoàn thành cuốn sách này, chúng tôi xin trân trọng cảm ơn các Giáo sư/Phó 
+giáo sư/Tiến sĩ/Bác sĩ nội trú đã dành nhiều thời gian, công sức, trí tuệ và tâm huyết để tham 
+gia biên soạn sách. Chúng tôi xin cảm ơn Bộ Y tế đã chỉ đạo và tạo điều kiện để hoàn thành 
+cuốn sách. Chúng tôi xin cảm ơn các nhà khoa học trong hội đồng thẩm định đã đóng góp ý 
+kiến, chỉnh sửa để cuốn sách được hoàn thiện hơn. Chúng tôi cũng xin cảm ơn Nhà xuất bản 
+Y học và Công ty Cổ phần Công nghệ Truyền thông MediaZ đã hỗ trợ về kỹ thuật trong việc 
+hoàn thành cuốn sách này. Và trên hết, những tâm huyết, những cố gắng và những nỗ lực này 
+là để dành tặng cho bệnh nhân mắc bệnh tim mạch, vì chính họ là động lực và trăn trở để 
+chúng tôi tiếp tục cống hiến.  
+ Hà Nội, tháng 9 năm 2019
+Thay mặt Ban biên soạn
+Chủ biên
+PGS.TS.BS. Phạm Mạnh Hùng
+
+
+MỤC LỤC
+NHỮNG CỘT MỐC ĐÁNG GHI NHỚ TRONG CHUYÊN NGÀNH TIM MẠCH
+39
+Chương I
+Lịch sử và gánh nặng bệnh tim mạch trên thế giới và ở Việt Nam
+49
+Chương II
+Cấp cứu tim mạch
+63
+Chương III
+Thăm dò không xâm lấn thường dùng trong tim mạch
+121
+Chương IV
+Tim mạch dự phòng (Tăng huyết áp; Rối loạn lipid máu; Đái tháo 
+thường và bệnh lý tim mạch)
+195
+Chương V
+Tăng áp lực mạch phổi
+277
+Chương VI
+Bệnh van tim
+301
+Chương VII
+Viêm nội tâm mạc nhiễm khuẩn
+353
+Chương VIII
+Bệnh màng ngoài tim
+385
+Chương IX
+Bệnh cơ tim
+415
+Chương X
+Suy tim
+461
+Chương XI
+Bệnh động mạch vành
+505
+Chương XII
+Bệnh động mạch chủ
+583
+Chương XIII
+Bệnh mạch máu ngoại biên
+625
+Chương XIV
+Bệnh tim bẩm sinh
+701
+Chương XV
+Bệnh tim và thai nghén
+729
+Chương XVI
+Tổn thương tim mạch ở một số bệnh lý đa cơ quan
+761
+Chương XVII
+Một số bệnh tim mạch khác do nhiễm trùng hoặc rối loạn dinh dưỡng
+797
+Chương XVIII Rối loạn nhịp tim thường gặp
+813
+Chương XIX
+Các thủ thuật thường dùng trong tim mạch
+873
+Chương XX
+Thông tim thăm dò huyết động và can thiệp tim mạch
+905
+Chương XXI
+Thăm dò điện sinh lý và điều trị rối loạn nhịp tim qua đường ống thông
+985
+Chương XXII
+Các thuốc thường dùng trong tim mạch
+1025
+Phụ lục
+Các thang điểm thường dùng trong thực hành tim mạch
+1097
+Index
+1117
+
+
+LÂM SÀNG TIM MẠCH HỌC
+39
+Ngày nay, bệnh Tim mạch đã trở thành bệnh lý thường gặp nhất với tỷ lệ tử vong 
+cao nhất và gánh nặng bệnh tật lớn nhất. Tuy vậy, nhờ tiến bộ không ngừng của 
+khoa học kỹ thuật, đã giúp nhân loại cứu sống được nhiều người bệnh, giảm 
+gánh nặng bệnh một cách đáng kể. Chúng ta hãy cùng điểm lại những cột mốc 
+đáng ghi nhớ trong sự phát triển chuyên ngành Tim mạch học từ xưa đến nay. 
+Biết về những thành tựu, cống hiến to lớn này sẽ nhắc nhở và hun đúc cho chúng 
+ta có thêm động lực trong sự nghiệp chăm sóc sức khỏe tim mạch, một chuyên 
+ngành gian khổ nhưng đáng tự hào mà các thầy thuốc tim mạch đã lựa chọn.
+NHỮNG CỘT MỐC ĐÁNG GHI NHỚ 
+TRONG CHUYÊN NGÀNH TIM MẠCH
+PGS.TS.BS. Phạm Mạnh Hùng
+ThS.BSNT. Nguyễn Văn Hiếu
+ThS.BSNT. Đoàn Tuấn Vũ
+BSNT. Võ Duy Văn
+BSNT. Lê Mạnh Tăng
+
+
+1500
+GIẢI PHẪU HỌC TIM MẠCH
+LEONARDO DA VINCI (1452–1519)
+Là thiên tài toàn năng người Ý về toán 
+học, họa sĩ, nhà điêu khắc, kiến trúc sư, 
+nhạc sĩ, bác sĩ, kỹ sư, nhà giải phẫu, nhà 
+phát minh và triết học tự nhiên.
+- Bác sĩ người Anh.
+- Ông là người đầu tiên mô tả hoàn chỉnh 
+và chi tiết hệ mạch máu vào năm 1628 
+trong công trình nghiên cứu có nhan đề 
+"Hoạt động của tim và máu động vật" 
+(Excercitatio de motu cordis et sanguinis 
+animalibus).
+Ông là một trong những người đầu tiên 
+nghiên cứu về giải phẫu học của hệ thống 
+tim mạch, Leonardo da Vinci đã mô tả chi tiết 
+các hình ảnh của tim và các mạch máu lớn.
+RENÉ THÉOPHILE 
+HYACINTHE LAENNEC 
+ (1781–1826)
+- Bác sĩ người Pháp.
+- Ông đã phát minh ra ống nghe lần đầu 
+tiên bằng gỗ vào năm 1816.
+WILLIAM HARVEY (1578 –1657)
+Hình ảnh quả tim 
+đầu tiên được ông 
+mô tả
+William Harvey và Công trình nghiên cứu 
+"Hoạt động của tim và máu động vật", 1628 
+René Théophile Hyacinthe Laennec và Chiếc 
+ống nghe đầu tiên bằng gỗ, 1816
+1628
+HỆ TUẦN HOÀN
+1816
+ỐNG NGHE TIM
+
+
+1895
+TIA X
+WILHELM CONRAD RÖNTGEN 
+ (1845 – 1923)
+ (1860 – 1927)
+- Nhà vật lý người Đức.
+- Năm 1895, ông đã khám phá ra sự bức xạ 
+điện từ, loại bức xạ không nhìn thấy có 
+bước sóng ngắn mà ngày nay chúng ta 
+được biết đến với tên gọi tia X.
+Bức Röntgenogram đầu tiên về xương bàn tay và chiếc 
+nhẫn cưới của vợ ông
+Hình ảnh điện tâm đồ đầu tiên ở người 
+được ghi bởi Einthoven, 1903
+Đây được xem là phát minh vĩ đại của thế 
+kỷ 19, được ứng dụng rộng rãi trong nhiều 
+lĩnh vực đặc biệt là Y học nói chung và Tim 
+mạch học nói riêng.
+- Bác sĩ, nhà sinh lý học người Hà Lan.
+- Người đã ghi điện tâm đồ đầu tiên ở người 
+vào năm 1903.
+- Einthoven đã gán các chữ cái P, Q, R, S và T 
+cho các sóng khác nhau và mô tả các đặc 
+điểm điện tâm đồ của một số rối loạn nhịp.
+WILLEM EINTHOVEN
+1903
+ĐIỆN TÂM ĐỒ
+
+
+1927
+THÔNG TIM
+CLAUDE BERNARD
+(1813 – 1878)
+Nhà sinh lý học người Pháp.
+Người đầu tiên đặt ống thông, đo áp lực 
+trong buồng tim và các mạch lớn của tim 
+động vật.
+WERNER FORSSMAN 
+(1904 – 1978)
+Phẫu thuật viên người Đức.
+Ông đã đặt ống thông tim đầu tiên ở 
+người vào năm 1929.
+Năm 1941, Hai ông đã ghi lại áp lực trong tim 
+ở người bình thường và ở bệnh nhân tim 
+bẩm sinh hoặc mắc phải. Đây là những nhà 
+khoa học khai phá lĩnh vực thông tim thăm 
+dò huyết động. Cả 3 nhà khoa học vinh dự 
+nhận giải thưởng Nobel năm 1956.
+ANDRE COURNAND
+(1895 - 1973)
+Bác sĩ và nhà sinh lý học người Pháp
+DICKINSON RICHARDS
+(1895 – 1988)
+Bác sĩ và nhà sinh lý học người Mỹ
+Werner Forssman và hình ảnh
+"Ống thông tim" đầu tiên ở người
+Claude Bernard và ống thông tim đo áp lực trong buồng tim 
+và cách mạch lớn
+
+
+CHƯƠNG I
+GÁNH NẶNG 
+BỆNH LÝ TIM MẠCH 
+TRÊN THẾ GIỚI VÀ Ở VIỆT NAM
+1 
+Bệnh lý tim mạch và mô hình bệnh tật toàn cầu 
+50
+2 
+Gánh nặng bệnh tim mạch toàn cầu 
+52
+3 
+Gánh nặng bệnh tim mạch ở Việt Nam 
+53
+4 
+Các bệnh lý tim mạch thường gặp 
+55
+5 
+Các yếu tố nguy cơ gây bệnh tim mạch 
+56
+6 
+Tóm tắt 
+60
+PGS.TS.BS. Phạm Mạnh Hùng
+ThS.BSNT. Nguyễn Văn Hiếu
+ThS.BSNT. Đoàn Tuấn Vũ
+BSNT. Võ Duy Văn
+BSNT. Vương Thị Ánh Tuyết
+BSNT. Lê Mạnh Tăng
+
+
+CHƯƠNG II: CẤP CỨU TIM MẠCH
+63
+CHƯƠNG II
+CẤP CỨU TIM MẠCH
+1 
+ Hồi sinh tim phổi ở người lớn 
+64
+2 
+Hội chứng động mạch vành cấp 
+72
+3 
+Cấp cứu rối loạn nhịp 
+80
+4 
+Suy tim cấp 
+82
+5 
+Tăng huyết áp cấp cứu 
+94
+6 
+Viêm cơ tim cấp 
+101
+7 
+Tràn dịch màng ngoài tim có ép tim cấp 
+103
+8 
+Tắc động mạch chi dưới cấp tính 
+105
+9 
+Hội chứng động mạch chủ cấp 
+105
+10 
+Thuyên tắc động mạch phổi 
+108
+11 
+Xử trí xuất huyết do quá mức chống đông kháng vitamin K 
+111
+12 
+Xử trí xuất huyết do dùng thuốc chống đông trực tiếp đường uống (DOAC) 
+112
+13 
+Điều trị xuất huyết tiêu hóa sau can thiệp động mạch vành qua da 
+114
+PGS.TS.BS. Tạ Mạnh Cường
+TS.BSNT. Khổng Nam Hương
+TS.BSNT. Đỗ Kim Bảng
+TS.BS. Phạm Minh Tuấn
+ThS.BSNT. Văn Đức Hạnh
+ThS.BSNT. Lê Ngọc Thạch
+ThS.BSNT. Lê Xuân Thận
+ThS.BSNT. Đặng Minh Hải
+ThS.BSNT. Nguyễn Thị Thu Hương
+ThS.BSNT. Nguyễn Trung Hậu
+ThS.BSNT. Bùi Nguyên Tùng
+ThS.BSNT. Đoàn Tuấn Vũ
+ThS.BSNT. Đàm Trung Hiếu
+BSNT. Đặng Việt Phong
+BSNT. Đàm Hải Sơn
+
+
+CHƯƠNG II: CẤP CỨU TIM MẠCH
+64
+1. HỒI SINH TIM PHỔI Ở NGƯỜI LỚN
+1.1. Hồi sinh tim phổi cơ bản ở người lớn
+Cấp cứu ngừng tuần hoàn là phần quan trọng nhất trong hồi sinh tim phổi khi xảy ra ngừng 
+tuần hoàn - hô hấp. Mục tiêu là duy trì tuần hoàn và thông khí thích hợp tới khi xác định 
+được nguyên nhân và điều chỉnh được căn nguyên gây ngừng tuần hoàn.
+Nếu não không được tưới máu đầy đủ trong 3 - 4 phút (có thể ít hơn nếu bệnh nhân đang 
+thiếu oxy) sẽ dẫn tới tổn thương não không hồi phục. Quan trọng là phải đánh giá thật nhanh 
+và bắt đầu ngay hồi sinh tim phổi. Các bước hồi sinh tim phổi cơ bản được mô tả dưới đây và 
+tóm tắt trong hình 2.5.
+a. Tiếp cận bệnh nhân
+- Đảm bảo an toàn cho người cấp cứu và bệnh nhân.
+- Kiểm tra bệnh nhân có đáp ứng không. Lay bệnh nhân và nói to: "Anh/chị có làm 
+sao không?".
+• Nếu bệnh nhân đáp ứng, đặt bệnh nhân ở tư thế an toàn và có thể gọi người đến 
+hỗ trợ.
+• Nếu bệnh nhân không đáp ứng, báo động yêu cầu trợ giúp, gọi to, nhấn chuông 
+báo động hoặc gọi điện thoại di động với chế độ bật loa ngoài cho đội cấp cứu, 
+còn bản thân tiến hành ép tim ngay, vừa ép vừa quan sát hoặc chuyển sang bước 
+2 (đánh giá hô hấp) nếu chưa chắc chắn là bệnh nhân đã ngừng tim và ngừng thở 
+(lưu ý: Thời gian dành cho bước này càng nhanh càng tốt, tối đa không quá 10 giây).
+b. Đánh giá hô hấp, đường thở 
+- Khai thông đường thở: Đặt hai ngón tay ở dưới cằm, ngửa đầu bệnh nhân lên. Nếu 
+thất bại, đặt ngón tay phía sau góc xương hàm dưới và giữ lực hướng lên trên và ra 
+trước (hình 2.1, 2.2). Loại bỏ răng giả và bất cứ vật gây tắc nghẽn nào nhìn thấy được 
+trong miệng bệnh nhân. Nếu bệnh nhân bắt đầu thở, xoay bệnh nhân tới tư thế an 
+toàn và cố gắng giữ đường thở tới khi đặt được dụng cụ ngăn tụt lưỡi cho bệnh nhân 
+(hình 2.3).
+- Giữ đường thở thông thoáng, quan sát, nghe và cảm nhận hô hấp của bệnh nhân: 
+Nhìn vận động lồng ngực, nghe âm thở ở miệng bệnh nhân và cảm nhận luồng khí 
+thở vào má người cấp cứu (không quá 10 giây).
+• Nếu bệnh nhân tự thở được, chuyển bệnh nhân về tư thế an toàn, tiếp tục kiểm 
+soát nhịp thở và tìm kiếm trợ giúp.
+• Nếu bệnh nhân không thở hoặc chỉ thở ngắt quãng hoặc thở yếu, báo cho người 
+bên cạnh (hoặc tìm trợ giúp nếu có 1 mình). Bắt đầu hỗ trợ hô hấp bằng cách hô 
+hấp nhân tạo (bóp bóng hoặc thổi ngạt) với 2 nhịp bóp chậm, sâu, có hiệu quả làm 
+phồng và xẹp rõ rệt lồng ngực bệnh nhân (có thể bỏ qua bước này và tiến hành 
+cấp cứu ngừng tuần hoàn ngay nếu bệnh nhân thở chỉ thở ngáp - xem phần cập 
+nhật dưới).
+
+
+CHƯƠNG II: CẤP CỨU TIM MẠCH
+65
+ 
+c. Đánh giá tuần hoàn
+Đánh giá dấu hiệu tuần hoàn bằng bắt mạch cảnh, mạch bẹn nhưng không quá 10 giây.
+- Nếu có mạch bẹn hoặc mạch cảnh nhưng bệnh nhân không thở: Tiếp tục hồi sức 
+hô hấp và đánh giá tình trạng hô hấp và tuần hoàn mỗi 10 nhịp thở (mỗi nhịp thở 
+khoảng 6 giây).
+- Nếu không có mạch cảnh hoặc mạch bẹn: Ép tim ngay tần số ép 100 - 120 nhịp/phút. 
+Phối hợp ép tim và thổi ngạt/bóp bóng, tỷ lệ tương ứng 30/2 (30 nhịp ép tim, 2 lần 
+thổi ngạt/bóp bóng).
+- Tỷ lệ ép tim và hô hấp nhân tạo tương tự với hồi sinh tim phổi với 2 người cấp cứu 
+(theo hướng dẫn hồi sinh tim phổi cơ bản của Hội Hồi sức châu Âu năm 2015).
+Hình 2.2: Đẩy hàm (đẩy góc hàm dưới 
+lên trên và ra trước)
+Hình 2.1: Nâng cằm để mở đường thở 
+ Hình 2.3: Đặt canun đường thở hầu họng 
+Hình 2.4: Đặt canun đường thở mũi họng
+
+
+CHƯƠNG II: CẤP CỨU TIM MẠCH
+66
+Kiểm tra nhịp thở 
+đồng thời với
+kiểm tra mạch.
+Xác định mạch trong 
+vòng 10 giây.
+Theo dõi cho 
+tới khi đội 
+cấp cứu đến
+Tiến hành thổi ngạt:
+1 nhịp thổi ngạt sau mỗi
+5-6 giây, hoặc 10-12 lần
+thổi ngạt/phút
+•
+Gọi đội cấp cứu (nếu
+chưa làm) sau 2 phút
+•
+Tiếp tục thổi ngạt;
+kiểm tra mạch sau
+mỗi
+2
+phút.
+Nếu
+không có mạch, bắt
+đầu hồi sinh tim phổi
+•
+Nếu có khảnăng do
+quá liều opiod, tiêm
+naloxone nếu có thể
+Thở bình 
+thường, 
+có mạch
+Không thở, 
+có mạch
+Hồi sinh tim phổi
+Tiền hành các chu kỳ hồi sức tim phổi 
+bao gồm 30 lần ép tim và 2 lần thổi ngạt
+Dùng thiết bị khử rung tim ngoài tự 
+động ngay khi có thể
+Kiểm tra nhịp tim.
+Nhận định nhịp tim có 
+chỉ định sốc điện không?
+Tiếp tục hồi sức tim phổi 
+khoảng 2 phút. Tiến hành liên 
+tục cho tới khi đội cấp cứu đến 
+hoặc bệnh nhân cử động trở lại.
+Có
+g
+Khôn
+Không thở hoặc 
+thở ngáp, 
+không có mạch
+cấp cứu hoặc đã có người lấy được chúng
+phá rung tim ngoài tựđộng và các dụng cụ 
+gọi được đội cấp cứu, đã lấy được thiết bị
+Tại thời điểm này trong mọi trường hợp, đã
+hoặc bệnh nhân cử động trởlại
+tục cho tới khi đội cấp cứu đến
+khoảng 2 phút. Tiến hành liên
+tiếp tục chu kỳ hồi sức tim phổi
+Sốc điện 1 lần, sau đó lập tức
+tự động được mang đến
+Thiết bị phá rung tim ngoài
+(hoặc cử người khác đi lấy)
+tự động và dụng cụ cấp cứu
+Lấy thiết bị phá rung tim ngoài
+(ngoại viện: Số 115)
+Gọi hỗ trợ cấp cứu qua điện thoại
+Gọi hỗ trợ ở xung quanh
+Bệnh nhân không đáp ứng
+cho người cấp cứu và bệnh nhân
+Đảm bảo an toàn
+Hình 2.5: Các bước tiếp cận trong hồi sinh tim phổi cơ bản (theo AHA 2015)
+
+
+CHƯƠNG II: CẤP CỨU TIM MẠCH
+121
+CHƯƠNG III
+THĂM DÒ KHÔNG 
+XÂM LẤN THƯỜNG DÙNG 
+TRONG TIM MẠCH
+1 
+Điện tâm đồ 
+123
+2 
+Siêu âm tim qua thành ngực 
+133
+3 
+Siêu âm tim qua thành ngực tiêu chuẩn 
+138
+4 
+Siêu âm tim qua thành ngực tiêu chuẩn: 
+Đánh giá chức năng tâm trương thất trái 
+144
+5 
+Các giai đoạn rối loạn chức năng tâm trương thất trái 
+150
+6 
+Tiếp cận đánh giá chức năng tâm trương thất trái 
+151
+7 
+Siêu âm tim trong hẹp van động mạch chủ 
+153
+8 
+Siêu âm tim qua thực quản 
+155
+9 
+Siêu âm tim qua thực quản đánh giá nguyên nhân gây tắc mạch 
+157
+TS.BS. Nguyễn Thị Thu Hoài
+TS.BSNT. Đỗ Phương Anh
+TS.BS. Vũ Kim Chi
+TS.BSNT. Khổng Nam Hương
+TS.BSNT. Phạm Thị Tuyết Nga
+TS.BSNT. Phan Đình Phong
+TS.BS. Lê Tuấn Thành
+ThS.BSNT. Đỗ Thị Thu Trang
+ThS.BSNT. Trần Huyền Trang
+ThS.BSNT. Trịnh Việt Hà
+ThS.BSNT. Phạm Tuấn Việt
+ThS. BSNT. Đỗ Thuý Cẩn
+ThS.BS. Hoàng Thị Phú Bằng
+ThS.BSNT. Trần Hải Yến
+ThS.BSNT. Lê Xuân Thận 
+ThS.BSNT. Nguyễn Phương Anh 
+ThS. BSNT. Nguyễn Tuấn Hải 
+ThS.BSNT. Nguyễn Thị Thu Hương 
+ThS.BSNT. Phạm Thu Thủy 
+ThS.BS. Trần Ngọc Lan 
+ThS.BSNT. Trương Đình Phi
+BSNT. Phùng Đình Thọ
+BSNT. Lê Mạnh Tăng
+
+
+CHƯƠNG III: THĂM DÒ KHÔNG XÂM LẤN THƯỜNG DÙNG TRONG TIM MẠCH
+122
+10 
+Siêu âm tim qua thực quản trong bệnh tách thành động mạch chủ 
+158
+11 
+Siêu âm tim qua thực quản trong bệnh viêm nội tâm mạc nhiễm khuẩn 
+159
+12 
+Siêu âm tim qua thực quản trong hở van hai lá 
+161
+13 
+Siêu âm tim qua thực quản trong bệnh hẹp van hai lá 
+164
+14 
+Siêu âm tim qua thực quản đánh giá các khối trong tim 
+164
+15 
+Siêu âm tim qua thực quản đánh giá van hai lá nhân tạo 
+164
+16 
+Siêu âm tim qua thực quản đánh giá van động mạch chủ nhân tạo 
+166
+17 
+Siêu âm qua thực quản trong phẫu thuật tim 
+167
+18 
+Chụp cắt lớp vi tính tim 
+169
+19 
+Chẩn đoán hình ảnh tim mạch hạt nhân 
+172
+20 
+Xạ hình tưới máu cơ tim 
+174
+21 
+Thăm dò tim mạch hạt nhân khác 
+176
+22 
+Chụp cắt lớp phát xạ positron (PET) 
+177
+23 
+Nguyên tắc cơ bản của cộng hưởng từ tim 
+178
+24 
+Cộng hưởng từ trong đánh giá các bệnh lý cơ tim 
+182
+25 
+Cộng hưởng từ đánh giá thiếu máu cục bộ và sống còn cơ tim 
+187
+26 
+Cộng hưởng từ trong đánh giá bệnh lý van tim 
+189
+27 
+Cộng hưởng từ trong đánh giá bệnh lý tim bẩm sinh 
+190
+28 
+Cộng hưởng từ trong đánh giá bệnh lý màng ngoài tim 
+190
+29 
+Cộng hưởng từ trong đánh giá các khối u tim 
+192
+
+
+CHƯƠNG III: THĂM DÒ KHÔNG XÂM LẤN THƯỜNG DÙNG TRONG TIM MẠCH
+123
+1. ĐIỆN TÂM ĐỒ
+1.1. Nguyên lý điện tâm đồ
+a. Định nghĩa
+Điện tâm đồ là một đường cong ghi lại các biến thiên dòng điện do tim phát ra khi hoạt động 
+co bóp.
+b. Điện thế hoạt động của tế bào tim
+Hai yếu tố quan trọng tạo nên điện thế hoạt động là sự chênh lệch nồng độ ion Na+, K+, Ca++... 
+giữa bên trong với bên ngoài tế bào và tính thấm chọn lọc của màng tế bào cơ tim đối với các 
+ion. Điện thế hoạt động diễn ra qua các giai đoạn sau:
+Khi tế bào nghỉ ngơi
+Tế bào cơ tim (bao gồm các sợi cơ co bóp và các tế bào thuộc hệ thống dẫn truyền) ở trạng 
+thái phân cực với điện thế phía ngoài màng dương hơn so với phía trong màng tế bào, điện 
+thế này bắt nguồn từ sự chênh lệch nồng độ của các ion Na+, K+, Ca++ và các ion khác ở dịch 
+trong và ngoài màng tế bào. Do vậy, nếu ta đặt hai điện cực ở mặt trong và mặt ngoài màng 
+tế bào tim, ta sẽ thu được một hiệu điện thế qua màng lúc nghỉ khoảng - 90 mV.
+Khi tế bào hoạt động
+Khi có tác nhân kích thích làm hiệu điện thế qua màng giảm tới mức khoảng - 60 mV sẽ khởi 
+động điện thế hoạt động. Màng tế bào tim trở nên tăng tính thấm chọn lọc với Na+ (bình 
+thường nồng độ Na+ ở ngoài tế bào lớn gấp 10 lần bên trong, khoảng 142 mmol/L) và Na+ ồ 
+ạt thấm vào trong tế bào, làm cho phía ngoài màng bớt dương hơn so với phía trong do mất 
+ion dương, hiệu điện thế qua màng hạ nhanh xuống 0 mV và còn "nảy quá đà" trở nên dương 
+khoảng 20 mV, có nghĩa là điện thế trong màng thậm chí trở nên dương hơn 20 mV so với 
+bên ngoài màng.
+Hiện tượng mất điện thế dương bên ngoài màng tế bào như trên gọi là hiện tượng khử cực, 
+tương ứng với pha 0 trên sơ đồ đường cong điện thế hoạt động.
+Tiếp theo giai đoạn khử cực là giai đoạn tái cực, bao gồm tái cực chậm (pha 1, 2), tái cực 
+nhanh (pha 3) và trạng thái phân cực (pha 4). Trong giai đoạn này, Na+ vào chậm dần và 
+ngừng hẳn, K+ bắt đầu ra ngoài cho đến khi thăng bằng điện thế qua màng được thiết lập lại, 
+có nghĩa là hiệu điện thế qua màng trở về mức - 90 mV.
+Hiện tượng khử cực chậm tâm trương ở pha 4
+Ở sợi cơ tại tâm nhĩ và tâm thất, trạng thái phân cực (pha 4) sẽ được duy trì cho đến khi có 
+một kích thích từ bên ngoài đến làm hạ hiệu điện thế qua màng tới ngưỡng (- 60 mV) để khởi 
+động điện thế hoạt động với các giai đoạn như đã mô tả.
+Ở tế bào biệt hóa của hệ thống dẫn truyền tim thì hoàn toàn khác: Trong trạng thái nghỉ, tế 
+bào tự khử cực Na+ xâm nhập dần dần vào trong tế bào làm tăng dần điện thế trong màng 
+(tức hạ dần hiệu điện thế qua màng), đó là sự khử cực chậm tâm trương, một đặc trưng của tế 
+bào tự động. Khi hiệu điện thế qua màng hạ tới ngưỡng (- 60 mV) sẽ tự khởi động một điện 
+thế hoạt động thay vì nhờ một kích thích bên ngoài như ở sợi co bóp. Tần số tạo ra những 
+điện thế hoạt động phụ thuộc vào tốc độ khử cực chậm tâm trương ở pha 4. Bình thường, tế 
+bào tự động của nút xoang có tốc độ khử cực chậm tâm trương nhanh nhất nên khi điện thế 
+
+
+CHƯƠNG III: THĂM DÒ KHÔNG XÂM LẤN THƯỜNG DÙNG TRONG TIM MẠCH
+124
+trong màng của các nơi khác chưa tăng đến ngưỡng để tạo ra một điện thế hoạt động thì 
+xung động từ nút xoang đã tới xóa những xung động đang hình thành từ các nơi đó, do vậy 
+nó chỉ huy nhịp đập của tim.
+Sau khi hình thành, dòng điện tim được lan truyền từ tế bào này đến tế bào khác và ra bề 
+mặt cơ thể. Nếu ta đặt 2 điện cực khác nhau ở bề mặt cơ thể và nối với bộ phận khuếch đại 
+tín hiệu của máy điện tâm đồ, ta sẽ ghi được các sóng điện tâm đồ. Cũng cần lưu ý rằng, tim 
+là một khối cơ rỗng cấu thành bởi hàng triệu triệu tế bào, với 4 buồng có cấu trúc dày mỏng 
+khác nhau, vì thế dòng điện hoạt động của tim sẽ biến thiên phức tạp hơn ở mỗi tế bào tim 
+như đã trình bày ở trên.
+Hình 3.1: Điện thế hoạt động và các kênh Na+, Ca2+, K+
+c. Trình tự khử cực của nhĩ và thất
+Khi nút xoang phát ra một kích thích, xung động sẽ tỏa ra khắp cơ nhĩ. Nhĩ phải (ở gần nút 
+xoang) sẽ khử cực trước, rồi đến vách liên nhĩ và cuối cùng là nhĩ trái. Quá trình khử cực tâm 
+nhĩ được thể hiện trên điện tâm đồ bằng một sóng P.
+Xung động sau đó lan truyền tới nút nhĩ thất, bó His, qua bó nhánh trái và phải, rồi tỏa vào hệ 
+thống lưới Purkinje tới các cơ của tâm thất trái và phải, để khử cực 2 tâm thất một cách đồng 
+bộ. Kết quả của quá trình khử cực này thu được phức bộ QRS trên điện tâm đồ bề mặt.
+Kết thúc quá trình khử cực thất, quá trình tái cực thất sau đó thể hiện bằng đoạn ST và sóng 
+T trên điện tâm đồ.
+
+
+CHƯƠNG III: THĂM DÒ KHÔNG XÂM LẤN THƯỜNG DÙNG TRONG TIM MẠCH
+125
+Hình 3.2: Quá trình khử cực của nhĩ và thất
+1.2. Phương pháp ghi điện tâm đồ và các chuyển đạo
+a. Chuẩn bị bệnh nhân
+- Bệnh nhân nằm ngửa, thẳng người trên mặt giường, thoải mái.
+- Mắc các điện cực vào các vị trí cổ tay, cổ chân hai bên và vùng trước tim theo quy ước.
+b. Mười hai chuyển đạo điện tâm đồ thông dụng (12-lead ECG)
+- 12 chuyển đạo thông dụng bao gồm 6 chuyển đạo ngoại biên (DI, DII, DIII, aVR, aVL, 
+aVF) và 6 chuyển đạo trước tim (V1, V2, V3, V4, V5, V6). Hướng của các vector của mỗi 
+chuyển đạo được thể hiện ở Hình 3.3.
+- Nguyên tắc hình thành sóng điện tâm đồ: Khi tim khử cực hoặc tái cực sẽ hình thành 
+vector điện tim, vector điện tim này nếu cùng hướng với vector của chuyển đạo nào sẽ 
+ghi được 1 sóng dương ở chuyển đạo đó, nếu ngược hướng sẽ ghi được 1 sóng âm.
+Hình 3.3: 6 chuyển đạo ngoại biên "khảo sát" dòng điện tim trên mặt phẳng thẳng đứng hay 
+mặt phẳng trán (frontal plane); 6 chuyển đạo trước tim "khảo sát" dòng điện tim trên 
+ mặt phẳng ngang (horizontal plane)
+
+
+CHƯƠNG IV: TIM MẠCH DỰ PHÒNG
+195
+CHƯƠNG IV
+TIM MẠCH DỰ PHÒNG 
+(Tăng huyết áp; Rối loạn lipid máu; 
+Đái tháo đường và bệnh lý tim mạch)
+ 
+1 
+Tiếp cận chẩn đoán tăng huyết áp 
+197
+2 
+Tiếp cận và phân tầng nguy cơ 
+202
+3 
+Điều trị tăng huyết áp 
+208
+4 
+Điều trị tăng huyết áp ở nhóm bệnh nhân cụ thể: Người cao tuổi 
+(≥ 65 tuổi) 
+217
+5 
+Điều trị tăng huyết áp ở nhóm bệnh nhân cụ thể: Đột quỵ não 
+218
+6 
+Điều trị tăng huyết áp ở nhóm bệnh nhân cụ thể: Hội chứng chuyển hóa 222
+7 
+Điều trị tăng huyết áp ở nhóm bệnh nhân cụ thể: Đái tháo đường 
+222
+8 
+Điều trị tăng huyết áp ở nhóm bệnh nhân cụ thể: Bệnh thận mạn 
+223
+9 
+Điều trị tăng huyết áp ở nhóm bệnh nhân cụ thể: Bệnh động mạch vành 225
+10 
+Điều trị tăng huyết áp ở nhóm bệnh nhân cụ thể: Suy tim 
+226
+11 
+Điều trị tăng huyết áp ở nhóm bệnh nhân cụ thể: Rung nhĩ 
+227
+12 
+Điều trị tăng huyết áp ở nhóm bệnh nhân cụ thể: Nữ giới 
+228
+13 
+Điều trị tăng huyết áp ở nhóm bệnh nhân cụ thể: Tăng huyết áp kháng trị 229
+PGS.TS.BS. Phạm Mạnh Hùng
+PGS.TS.BS. Nguyễn Thị Bạch Yến
+ThS.BSNT. Trần Tuấn Việt
+ThS.BSNT. Lê Ngọc Thạch
+ThS.BSNT. Nguyễn Thị Miên
+ThS.BSNT. Nguyễn Văn Hiếu
+ThS.BSNT. Kim Ngọc Thanh
+ThS.BSNT. Trần Huyền Trang
+BSNT. Trần Hồng Quân
+BSNT. Lê Văn Đạt
+BSNT. Nguyễn Duy Tuấn
+BSNT. Ngô Quang Tùng
+
+
+CHƯƠNG IV: TIM MẠCH DỰ PHÒNG
+196
+14 
+Tăng huyết áp thứ phát 
+231
+15 
+Điều trị một số yếu tố nguy cơ kèm theo 
+238
+16 
+Tăng huyết áp: Theo dõi bệnh nhân 
+239
+17 
+Tăng huyết áp: Các trường hợp cần chuyển tuyến 
+240
+18 
+Tiếp cận chẩn đoán và chiến lược điều trị rối loạn lipid máu 
+241
+19 
+Các biện pháp điều trị rối loạn lipid máu 
+245
+20 
+Điều trị rối loạn lipid máu trong một số trường hợp cụ thể 
+248
+21 
+Bệnh tăng cholesterol máu gia đình 
+250
+22 
+Theo dõi bệnh nhân trong quá trình điều trị rối loạn lipid máu 
+252
+23 
+Đái tháo đường: Định nghĩa và chẩn đoán 
+259
+24 
+Đái tháo đường và các bệnh lý kèm theo 
+260
+25 
+Đánh giá nguy cơ tim mạch ở bệnh nhân đái tháo đường 
+và tiền đái tháo đường 
+265
+26 
+Phòng ngừa bệnh lý tim mạch ở bệnh nhân đái tháo đường: 
+Các biện pháp không dùng thuốc 
+266
+27 
+Phòng ngừa bệnh lý tim mạch ở bệnh nhân đái tháo đường: 
+Các biện pháp dùng thuốc 
+268
+28 
+Tiếp cận điều trị đa yếu tố 
+273
+
+
+CHƯƠNG V: TĂNG ÁP LỰC MẠCH PHỔI
+277
+CHƯƠNG V
+TĂNG ÁP LỰC MẠCH PHỔI
+1 
+Giới thiệu 
+278
+2 
+Sinh bệnh học tăng áp lực mạch phổi 
+279
+3 
+Phân loại tăng áp lực mạch phổi 
+281
+4 
+Triệu chứng lâm sàng tăng áp lực mạch phổi 
+283
+5 
+Các thăm dò cận lâm sàng tăng áp lực mạch phổi 
+284
+6 
+Điều trị tăng áp lực mạch phổi 
+290
+7 
+Điều trị tăng áp lực động mạch phổi 
+292
+8 
+Điều trị các nhóm tăng áp lực mạch phổi khác ngoài nhóm 1 
+296
+9 
+Những vấn đề còn chưa thống nhất 
+297
+10 
+Tiên lượng và theo dõi lâu dài 
+297
+PGS.TS.BS. Nguyễn Lân Hiếu
+ThS.BSNT. Nguyễn Thị Minh Lý
+ThS.BSNT. Nguyễn Văn Hiếu
+ThS.BSNT. Kim Ngọc Thanh
+BSNT. Vũ Thị Mai
+BSNT. Đặng Thị Linh
+
+
+CHƯƠNG V: TĂNG ÁP LỰC MẠCH PHỔI
+301
+CHƯƠNG VI
+BỆNH VAN TIM
+1 
+Tổng quan 
+302
+2 
+Thấp tim cấp 
+303
+3 
+Hẹp van hai lá 
+309
+4 
+Hở van hai lá 
+315
+5 
+Hẹp van động mạch chủ 
+323
+6 
+Hở van động mạch chủ 
+329
+7 
+Bệnh van ba lá và van động mạch phổi 
+334
+8 
+Van tim nhân tạo 
+339
+9 
+Biến chứng của van tim nhân tạo 
+344
+GS.TS.BS. Đỗ Doãn Lợi
+TS.BSNT. Dương Đức Hùng
+TS.BSNT. Vũ Anh Dũng
+TS.BSNT. Đỗ Phương Anh
+ThS.BSNT. Lê Ngọc Thạch
+ThS.BSNT. Trần Tuấn Việt
+ThS.BSNT. Nguyễn Thị Miên
+ThS.BSNT. Phạm Thu Thủy
+ThS.BSNT. Dương Thị Giang
+BSNT. Phạm Thị Thanh Thảo
+BSNT. Lê Thị Thảo
+BSNT. Nguyễn Thế Nam Huy
+
+
+CHƯƠNG VI: BỆNH VAN TIM
+353
+CHƯƠNG VII
+VIÊM NỘI TÂM MẠC 
+NHIỄM KHUẨN
+1 
+Triệu chứng lâm sàng của viêm nội tâm mạc nhiễm khuẩn 
+354
+2 
+Thăm dò cận lâm sàng trong viêm nội tâm mạc nhiễm khuẩn 
+356
+3 
+Chẩn đoán viêm nội tâm mạc nhiễm khuẩn 
+358
+4 
+Liệu pháp kháng sinh trong điều trị viêm nội tâm mạc nhiễm khuẩn 
+361
+5 
+Theo dõi trong quá trình điều trị viêm nội tâm mạc nhiễm khuẩn 
+370
+6 
+Chỉ định phẫu thuật cho viêm nội tâm mạc nhiễm khuẩn 
+372
+7 
+Dự phòng viêm nội tâm mạc nhiễm khuẩn 
+374
+8 
+Viêm nội tâm mạc nhiễm khuẩn ở một số trường hợp đặc biệt 
+376
+9 
+Theo dõi và quản lý bệnh nhân ngoại trú 
+380
+PGS.TS.BS. Trương Thanh Hương
+ThS.BSNT. Kim Ngọc Thanh
+ThS.BSNT. Nguyễn Thị Miên
+ThS.BSNT. Lê Ngọc Thạch
+ThS.BSNT. Phạm Thu Thủy
+BSNT. Nguyễn Thế Nam Huy
+BSNT. Vũ Hồng Phú
+
+
+CHƯƠNG VII: VIÊM NỘI TÂM MẠC NHIỄM KHUẨN
+385
+CHƯƠNG VIII
+BỆNH MÀNG NGOÀI TIM
+1 
+Giới thiệu 
+386
+2 
+Nguyên nhân gây bệnh màng ngoài tim 
+386
+3 
+Viêm màng ngoài tim cấp 
+388
+4 
+Viêm màng ngoài tim tái phát 
+391
+5 
+Viêm màng ngoài tim - cơ tim 
+393
+6 
+Tràn dịch màng ngoài tim 
+394
+7 
+Viêm màng ngoài tim co thắt 
+399
+8 
+Một số bệnh màng ngoài tim theo căn nguyên thường gặp 
+405
+PGS.TS.BS. Đinh Thị Thu Hương
+TS.BSNT. Đỗ Kim Bảng
+ThS.BSNT. Trần Tuấn Việt
+ThS.BSNT. Nguyễn Thị Miên
+ThS.BSNT. Đoàn Tuấn Vũ
+ThS.BSNT. Nguyễn Vân Anh
+ThS.BS. Vương Hải Hà
+ThS.BS. Lê Việt Thắng
+BS. Vũ Công Hiếu
+BS. Lê Thanh Tùng
+BSNT. Đặng Thị Linh
+
+
+CHƯƠNG VIII: BỆNH MÀNG NGOÀI TIM
+415
+CHƯƠNG IX
+BỆNH CƠ TIM
+1 
+Phân loại 
+417
+2 
+Bệnh cơ tim giãn 
+418
+3 
+Bệnh cơ tim phì đại 
+422
+4 
+Bệnh cơ tim hạn chế 
+429
+5 
+Bệnh tim thoái hóa bột 
+431
+6 
+Bệnh Fabry 
+434
+7 
+Bệnh cơ tim thất phải gây rối loạn nhịp 
+436
+8 
+Bệnh cơ tim thất trái xốp 
+443
+9 
+Bệnh cơ tim do thiếu máu cục bộ 
+445
+10 Bệnh cơ tim do tăng huyết áp 
+446
+11 Bệnh cơ tim do van tim 
+447
+12 Bệnh cơ tim do rượu 
+447
+PGS.TS.BS. Phạm Mạnh Hùng
+TS.BSNT. Đỗ Kim Bảng
+TS.BSNT. Khổng Nam Hương
+TS.BSNT. Phạm Thị Tuyết Nga
+ThS.BSNT. Trần Tuấn Việt
+ThS.BSNT. Nguyễn Thị Miên
+ThS.BSNT. Phạm Tuấn Việt
+ThS.BSNT. Đỗ Thị Thu Trang
+ThS.BSNT. Nguyễn Thị Hải Yến
+ThS.BSNT. Đoàn Thị Tú Uyên
+ThS.BS. Đặng Thị Vũ Diệu
+BS. Nguyễn Đoàn Trung
+BS. Đỗ Doãn Bách
+BSNT. Trần Hồng Quân
+BSNT. Lê Thị Thảo
+BSNT. Đàm Hải Sơn
+
+
+CHƯƠNG X: SUY TIM
+461
+CHƯƠNG X
+SUY TIM
+1 
+Tổng quan 
+463
+2 
+Phân loại suy tim 
+464
+3 
+Nguyên nhân và các yếu tố thúc đẩy suy tim 
+465
+4 
+Triệu chứng lâm sàng suy tim 
+467
+5 
+Thăm dò cận lâm sàng suy tim 
+470
+6 
+Quản lý và điều trị bệnh nhân suy tim 
+471
+7 
+Thuốc lợi tiểu trong điều trị suy tim 
+474
+8 
+Thuốc ức chế men chuyển trong điều trị suy tim 
+476
+9 
+Thuốc ức chế thụ thể trong điều trị suy tim 
+478
+10 
+Thuốc chẹn beta giao cảm trong điều trị suy tim 
+478
+11 
+Thuốc đối kháng aldosterone trong điều trị suy tim 
+481
+12 
+Thuốc ức chế thụ thể angiotensin/neprilysin trong điều trị suy tim 
+482
+13 
+Thuốc chẹn kênh If trong điều trị suy tim 
+483
+TS.BS. Nguyễn Thị Thu Hoài
+ThS.BSNT. Nguyễn Thị Miên
+ThS.BSNT. Trần Tuấn Việt
+ThS.BSNT. Trịnh Việt Hà
+ThS.BSNT. Đỗ Thu Trang
+ThS.BSNT. Trần Bá Hiếu
+ThS.BSNT. Đoàn Thị Tố Uyên
+ThS.BSNT. Nguyễn Thị Lệ Thúy
+ThS.BSNT. Nguyễn Thị Duyên
+BSNT. Lê Thị Hoa
+BSNT. Nguyễn Đỗ Quân
+
+
+CHƯƠNG X: SUY TIM
+462
+14 
+Thuốc digoxin trong điều trị suy tim 
+484
+15 
+Thuốc hydralazine và isosorbide dinitrate trong điều trị suy tim 
+485
+16 
+Thuốc chống đông đường uống và kháng kết tập tiểu cầu cho 
+bệnh nhân suy tim 
+486
+17 
+Các thuốc bị chống chỉ định trên bệnh nhân suy tim phân suất tống 
+máu giảm có phân độ NYHA III-IV 
+486
+18 
+Các thuốc giãn mạch trong điều trị suy tim cấp 
+486
+19 
+Thuốc vận mạch trong điều trị suy tim 
+487
+20 
+Một số nhóm thuốc khác trong điều trị suy tim 
+488
+21 
+Các thiết bị hỗ trợ cơ học trong điều trị suy tim 
+489
+22 
+Chỉ định phẫu thuật trên bệnh nhân suy tim 
+491
+23 
+Suy tim phân suất tống máu bảo tồn/suy tim tâm trương 
+493
+24 
+Những bệnh đồng mắc phổ biến ở bệnh nhân suy tim 
+495
+25 
+Suy tim cấp 
+497
+
+
+CHƯƠNG X: SUY TIM
+463
+1. TỔNG QUAN
+1.1. Định nghĩa
+Suy tim là một hội chứng lâm sàng biểu hiện bởi các triệu chứng cơ năng (khó thở, phù mắt cá 
+chân, mệt mỏi) và thực thể (nhịp tim nhanh, nhịp thở nhanh, tĩnh mạch cổ nổi, phù ngoại vi, 
+sung huyết phổi) gây ra bởi bất thường cấu trúc và/hoặc chức năng tim dẫn đến giảm cung 
+lượng tim và/hoặc tăng áp lực trong buồng tim lúc nghỉ ngơi hoặc khi gắng sức.
+Định nghĩa hiện tại của suy tim giới hạn ở giai đoạn khi triệu chứng lâm sàng xuất hiện rõ 
+ràng. Trước khi triệu chứng xuất hiện, bệnh nhân có thể có bất thường về cấu trúc và/hoặc 
+chức năng tim (rối loạn chức năng tâm thu hoặc tâm trương) là tiền đề cho suy tim tiến triển. 
+Nhận thức được nguy cơ này là rất quan trọng vì nó liên quan tới tiên lượng xấu và việc bắt 
+đầu điều trị ở giai đoạn này có thể làm giảm nguy cơ tử vong.
+1.2. Dịch tễ và tiên lượng
+Suy tim là bệnh lý tim mạch có tốc độ gia tăng nhanh nhất, tỷ lệ mắc tăng dần theo tuổi, 
+chiếm khoảng 2 - 3% dân số nói chung và lên đến 10 - 20% ở nhóm trên 70 tuổi. Mặc dù các 
+nghiên cứu dịch tễ gần đây chỉ ra việc điều trị tích cực giúp cải thiện tỷ lệ sống còn, tuy nhiên 
+tiên lượng chung vẫn rất nặng nề với tỷ lệ tử vong trong 5 năm lên đến 50%. Nguyên nhân 
+tử vong có thể do suy tim tiến triển hoặc thứ phát do các rối loạn nhịp thất. Tỷ lệ tái nhập viện 
+hằng năm lên đến 50% và đưa đến gánh nặng bệnh tật cho hệ thống chăm sóc sức khỏe của 
+mỗi quốc gia.
+1.3. Sinh lý bệnh
+Hình 10.1: Sinh lý bệnh suy tim 
+(Nguồn: sách Oxford Handbook of Cardiology 2.0)
+Giảm thể tích nhát bóp
+Giảm tưới máu động mạch
+Hiệu ứng 
+Starling
+Hoạt hóa hệ 
+thần kinh – Nội tiết
+Tăng áp lực thành tim
+Tái cấu trúc cơ tim
+Còn bù
+Áp lực lên thành tim bình thường
+Phục hồi thểtích nhát bóp
+Hạn chếthay đổi thểtích/hình dạng thất trái
+Chức năng thất trái giảm trong giới hạn
+Mất bù
+Tăng áp lực lên thành tim
+Hoạt động hệ thần kinh nội tiết
+Tăng thể tích thất trái
+Giảm chức năng thất trái
+SUY TIM
+
+
+CHƯƠNG X: SUY TIM
+464
+Nguồn gốc dẫn đến các triệu chứng của suy tim vẫn chưa được rõ ràng. Có thể từ một biến 
+cố ban đầu (nhồi máu cơ tim, viêm cơ tim, quá tải thể tích hoặc áp lực) gây tổn thương cơ 
+tim, dẫn đến tăng áp lực lên thành tim. Theo sau là sự hoạt hóa nhiều hệ thống thần kinh - 
+nội tiết bao gồm hệ renin-angiotensin-aldosterone, hệ thần kinh giao cảm và giải phóng các 
+cytokine như yếu tố hoại tử u (TNF). Hoạt hóa hệ thần kinh - nội tiết cũng kéo theo sự thay đổi 
+cấu trúc và chuyển hóa của hệ cơ xương ngoại vi và bất thường các phản xạ chức năng của hệ 
+thống tim phổi như phản xạ giảm nhịp tim và phản xạ giảm áp. Những rối loạn trên làm gia 
+tăng áp lực lên thành tim kéo theo một vòng xoắn bệnh lý.
+2. PHÂN LOẠI SUY TIM 
+2.1. Suy tim cấp và suy tim mạn
+Các biểu hiện lâm sàng phụ thuộc vào tốc độ tiến triển của suy tim. 
+Suy tim cấp được miêu tả với triệu chứng khó thở cấp, phù phổi, thậm chí là sốc tim với tụt 
+huyết áp và vô niệu. Suy tim cấp có thể do nhồi máu cơ tim, rối loạn nhịp tim hoặc tổn thương 
+van tim cấp tính (ví dụ: viêm nội tâm mạc nhiễm khuẩn...), tổn thương cơ tim cấp trong viêm 
+cơ tim...
+Suy tim mạn là bệnh nhân bị suy tim trong một thời gian tương đối dài. Nếu các bệnh nhân 
+khi được điều trị tình trạng không xấu đi trong tối thiểu 1 tháng thì được gọi là ổn định. Ngược 
+lại, nếu tình trạng ổn định mất đi bệnh nhân sẽ chuyển sang suy tim mạn mất bù, quá trình 
+này có thể diễn ra từ từ hoặc nhanh chóng, đây là nguyên nhân khiến bệnh nhân phải nhập 
+viện và là một yếu tố tiên lượng xấu.
+2.2. Suy tim tâm thu và suy tim tâm trương
+Hầu hết bệnh nhân suy tim đều có cả suy tim tâm thu (suy giảm chức năng tống máu) và suy 
+tim tâm trương (rối loạn chức năng giãn và đổ đầy của tâm thất). 
+Bệnh nhân suy tim tâm trương là những bệnh nhân có triệu chứng và dấu hiệu của suy tim 
+nhưng chức năng tâm thu thất trái bảo tồn. Thuật ngữ suy tim tâm trương, suy tim chức năng 
+tâm thu bình thường và suy tim chức năng tâm thu bảo tồn có thể sử dụng thay thế cho nhau. 
+Theo phân loại suy tim của Hội Tim mạch châu Âu (ESC) 2016 chia ra 3 nhóm: Suy tim phân 
+suất tống máu giảm (EF < 40%), suy tim phân suất tống máu bảo tồn (EF ≥ 50%) và suy 
+tim phân suất tống máu giới hạn (EF: 40 - 49%), việc phân loại thêm nhóm EF 40 - 49% sẽ 
+thúc đẩy các nghiên cứu về cơ chế bệnh sinh, đặc điểm lâm sàng và điều trị ở nhóm bệnh 
+nhân đặc biệt này.
+2.3. Suy tim phải và suy tim trái
+Phân loại suy tim phải hay suy tim trái dựa theo tình trạng sung huyết tĩnh mạch hệ thống 
+(phù chân, gan to) hay sung huyết phổi chiếm ưu thế (phù phổi cấp). Thuật ngữ này không 
+nhất thiết chỉ ra thất phải hay thất trái bị ảnh hưởng nặng nhất.
+Tình trạng ứ dịch trong suy tim do sự kết hợp của nhiều yếu tố: Giảm mức lọc cầu thận, hoạt 
+hóa hệ renin-angiotensin-aldosterone và vai trò của hệ thần kinh giao cảm. 
+
+
+CHƯƠNG X: SUY TIM
+465
+2.4. Suy tim cung lượng tim cao và cung lượng tim thấp
+Nhiều bệnh lý gây tăng cung lượng tim có thể dẫn đến suy tim, ví dụ nhiễm độc giáp, bệnh 
+Paget, bệnh Beri-Beri và thiếu máu. Tình trạng này đặc trưng bởi tăng sinh nhiệt quá mức và 
+mạch nảy mạnh. Chỉ số bão hòa oxy trong máu tĩnh mạch trộn (chỉ số đánh giá khả năng cung 
+cấp oxy của tim cho hoạt động chuyển hóa của mô) bình thường hoặc thấp trong suy tim 
+cung lượng tim cao. Ngược lại, trong suy tim cung lượng tim thấp đặc trưng bởi cảm giác lạnh, 
+tím do co mạch hệ thống và mạch chìm, chỉ số bão hòa oxy máu trộn bình thường hoặc cao.
+3. NGUYÊN NHÂN VÀ CÁC YẾU TỐ THÚC ĐẨY SUY TIM
+Với tất cả bệnh nhân suy tim, điều quan trọng là xác định được căn nguyên và các yếu tố thúc 
+đẩy bệnh tiến triển hay các bệnh lý khác làm ảnh hưởng đến việc quản lý và điều trị bệnh.
+Bệnh cơ tim
+Bệnh tim thiếu máu
+Sẹo cơ tim
+Cơ tim ngủ đông
+Bệnh động mạch vành
+Bất thường hệ vi mạch 
+của mạch vành
+Rối loạn chức năng nội 
+mạc
+Ngộ độc cơ tim
+Lạm dụng chất gây kích 
+thích
+Rượu, cocaine, amphetamine...
+Kim loại nặng
+Đồng, sắt, chì, cobalt...
+Thuốc
+Thuốc độc tế bào, thuốc ức chế miễn 
+dịch…
+Tia phóng xạ
+Tổn thương do phản 
+ứng viêm và qua 
+trung gian miễn dịch
+Liên quan tới nhiễm 
+trùng
+Vi khuẩn, nấm, ký sinh trùng (bệnh 
+Chagas), rickettsiae, HIV
+Không liên quan tới 
+nhiễm trùng
+Viêm cơ tim lympho/tế bào khổng lồ, 
+các bệnh tự miễn (ví dụ: bệnh Graves, 
+bệnh thấp tim, viêm khớp, rối loạn mô 
+liên kết, chủ yếu là lupus ban đỏ hệ 
+thống), quá mẫn và viêm cơ tim tăng 
+bạch cầu ái toan (Churg-Strauss)
+Thâm nhiễm cơ tim
+Liên quan tới bệnh ác 
+tính
+Thâm nhiễm trực tiếp hay di căn
+Không liên quan tới bệnh 
+ác tính
+Amyloidosis, sarcoidosis, bệnh tích lũy 
+glycogen (ví dụ: Bệnh Pompe)
+BẢNG 10.1
+ Nguyên nhân suy tim (Theo ESC 2016)
+
+
+CHƯƠNG XI: BỆNH ĐỘNG MẠCH VÀNH
+505
+CHƯƠNG XI
+BỆNH ĐỘNG MẠCH VÀNH
+1 
+Giới thiệu 
+507
+2 
+Các yếu tố nguy cơ tim mạch 
+512
+3 
+Hội chứng động mạch vành mạn: Giới thiệu 
+515
+4 
+Hội chứng động mạch vành mạn: Lâm sàng và cận lâm sàng 
+516
+5 
+Hội chứng động mạch vành mạn: Tiếp cận chẩn đoán 
+520
+6 
+Hội chứng động mạch vành mạn: Điều trị nội khoa 
+525
+7 
+Hội chứng động mạch vành mạn: Chiến lược tái thông động 
+mạch vành 
+529
+8 
+Theo dõi và quản lý lâu dài bệnh nhân có hội chứng động mạch 
+vành mạn 
+531
+9 
+Hội chứng động mạch vành cấp không có ST chênh lên 
+533
+PGS.TS.BS. Phạm Mạnh Hùng
+PGS.TS.BS. Nguyễn Ngọc Quang
+ThS.BSNT. Nguyễn Hữu Tuấn
+ThS.BSNT. Phan Tuấn Đạt
+ThS.BSNT. Phạm Nhật Minh
+ThS.BSNT. Bùi Nguyên Tùng
+ThS.BSNT. Nguyễn Bá Ninh
+ThS.BSNT. Lê Xuân Thận
+ThS.BSNT. Vũ Quang Ngọc
+ThS.BSNT. Trần Bá Hiếu
+ThS.BSNT. Nguyễn Mạnh Quân
+ThS.BSNT Nguyễn Trung Hậu
+ThS.BSNT Nguyễn Đức Nhương
+ThS.BS. Dương Ngọc Long
+BSNT. Vũ Thị Mai
+BSNT. Ngô Quang Tùng
+
+
+CHƯƠNG XI: BỆNH ĐỘNG MẠCH VÀNH
+506
+10 Hội chứng động mạch vành cấp không có ST chênh lên: Tiếp cận điều trị 538
+11 
+Hội chứng động mạch vành cấp không có ST chênh lên: Chiến lược 
+tái thông động mạch vành 
+543
+12 Nhồi máu cơ tim cấp có ST chênh lên (STEMI): Lâm sàng, cận lâm sàng 
+và chẩn đoán 
+545
+13 Nhồi máu cơ tim cấp có ST chênh lên: Tiếp cận ban đầu 
+552
+14 Nhồi máu cơ tim cấp có ST chênh lên: Các biện pháp tái thông động 
+mạch vành 
+553
+15 Nhồi máu cơ tim cấp có ST chênh lên: Các thuốc dùng phối hợp 
+558
+16 
+Nhồi máu cơ tim cấp có ST chênh lên: Cho ra viện và dự phòng thứ phát 563
+17 
+Biến chứng của nhồi máu cơ tim cấp có ST chênh lên 
+564
+18 
+Nhồi máu cơ tim thất phải 
+570
+19 
+Nhồi máu cơ tim do cocaine 
+572
+20 
+Nhồi máu cơ tim cấp không có tổn thương động mạch vành (MINOCA) 
+573
+21 
+Một số vấn đề về di truyền học của bệnh động mạch vành 
+576
+22 
+Liệu pháp tế bào gốc trong điều trị suy tim sau nhồi máu cơ tim 
+578
+
+
+CHƯƠNG XI: BỆNH ĐỘNG MẠCH VÀNH
+507
+1. GIỚI THIỆU1.1. Cơ chế
+1.1. Dịch tễ
+Bệnh động mạch vành (ĐMV) là nguyên nhân hàng đầu gây tử vong và tàn phế ở các 
+nước đang phát triển và phát triển; là nguyên nhân của một phần ba các ca tử vong ở 
+người lớn trên 35 tuổi trên toàn thế giới.
+Tại Việt Nam, bệnh ĐMV cũng đã trở thành một trong những nguyên nhân gây tử vong 
+hàng đầu. Năm 2016, theo báo cáo của WHO, ước tính Việt Nam có khoảng 31% trường 
+hợp tử vong là bệnh tim mạch, trong đó, hơn nửa là do bệnh lý ĐMV. 
+1.2. Thuật ngữ
+Bệnh động mạch vành do xơ vữa bao gồm hai hội chứng trên lâm sàng:
+- Hội chứng động mạch vành mạn (Chronic coronary syndrome), gọi tắt là hội chứng 
+mạch vành mạn, là thuật ngữ mới được đưa ra tại Hội Nghị Tim Mạch châu Âu (ESC) 
+2019, thay cho tên gọi trước đây là đau thắt ngực ổn định, bệnh ĐMV ổn định, bệnh 
+cơ tim thiếu máu cục bộ mạn tính hoặc suy vành. 
+- Hội chứng động mạch vành cấp tên gọi tắt là hội chứng vành cấp, bao gồm nhồi 
+máu cơ tim cấp có ST chênh lên (STEMI), nhồi máu cơ tim cấp không có ST chênh lên 
+(NSTEMI) và đau ngực không ổn định (ĐNKÔĐ).
+1.3. Sinh lý bệnh xơ vữa động mạch vành
+Xơ vữa động mạch là bệnh lý xảy ra ở các động mạch lớn và vừa, trong đó có ĐMV; đặc 
+trưng bởi tình trạng lắng đọng dần các mảng lipid ở thành mạch gây hẹp dần lòng 
+mạch, dẫn tới giảm tưới máu mô ở phía xa. Mảng xơ vữa có thể gây hội chứng ĐMV cấp 
+khi có tình trạng bất ổn định, nứt vỡ và khởi phát hình thành huyết khối lấp tắc một phần 
+hay hoàn toàn trong lòng ĐMV. Có nhiều thuyết về quá trình hình thành mảng xơ vữa 
+ĐMV nhưng thuyết tổn thương nội mạc mạch được ủng hộ nhiều nhất.
+Quá trình hình thành mảng xơ vữa được đặc trưng bởi:
+- Rối loạn chức năng tế bào nội mạc mạch máu.
+- Lắng đọng lipid, cholesterol và xâm nhập các tế bào viêm ở thành mạch.
+- Tích luỹ các mảnh xác tế bào ở lớp nội mạc và dưới nội mạc. 
+a. Suy giảm chức năng nội mạc
+Quá trình này được kích hoạt bởi sự tổn thương lớp nội mạc mạch máu do tiếp xúc với 
+các yếu tố kích thích như: 
+- Chất độc trong thuốc lá.
+- LDL-C oxy hóa.
+- Các sản phẩm chuyển hóa cuối cùng của quá trình đường phân.
+- Tăng homocystein.
+
+
+CHƯƠNG XI: BỆNH ĐỘNG MẠCH VÀNH
+508
+- Các tác nhân nhiễm trùng...
+Tổn thương tế bào nội mạc bắt đầu chuỗi các quá trình dẫn đến rối loạn chức năng tế 
+bào. Dấu hiệu của rối loạn chức năng nội mạc là thay đổi sự cân bằng của quá trình sản 
+sinh các phân tử hoạt mạch qua trung gian tế bào nội mạc: 
+- Giảm hoạt tính sinh học của NO, một chất giãn mạch quan trọng, chống huyết khối, 
+chống tăng sinh.
+- Tăng sinh các chất co mạch: Endothelin-1 và angiotensin-II, hoạt hoá quá trình di tản 
+và tăng sinh tế bào.
+- Rối loạn chức năng tế bào nội mạc, bộc lộ các phân tử kết dính và các chất hoá ứng 
+động làm tăng kết dính và di chuyển tế bào.
+- Những ảnh hưởng qua trung gian các kích thích thường thấy rõ nhất ở mạch máu có 
+tốc độ dòng máu cao như mạch não, mạch vành, mạch thận, mạch chậu.
+- Thay đổi cân bằng đông máu tại chỗ như tăng nồng độ chất ức chế hoạt hóa 
+plasminogen và các yếu tố mô.
+- Giảm yếu tố hoạt hóa plasminogen (t-PA) và thrombomodulin.
+- Giảm sản xuất NO dẫn đến tăng hoạt hoá và kết dính tiểu cầu.
+b. Sự phát triển của mảng xơ vữa 
+Rối loạn chức năng nội mạc tạo thuận lợi cho sự hình thành và phát triển của mảng xơ 
+vữa (Hình 11.1)
+- Sự lắng đọng dần dần của các hạt LDL qua lớp nội mạc mạch máu vào thành mạch 
+khi lớp nội mạc bị tổn thương và suy giảm chức năng.
+- Các tế bào đơn nhân thâm nhiễm vào thành mạch (do tổn thương nội mạc và các yếu 
+tố viêm, hóa chất trung gian), hoạt hóa biến thành đại thực bào, tiếp theo đại thực 
+bào sẽ ăn các hạt LDL biến thành các tế bào bọt. Các tế bào bọt này lắng đọng trong 
+thành mạch và lại tiếp tục hoạt hóa thúc đẩy quá trình thực bào - lắng đọng tạo thành 
+các mảng xơ vữa động mạch. 
+- Các tổn thương sớm nhất là các vệt mỡ, gồm chủ yếu các đại thực bào giàu lipid và 
+các tế bào bọt. Các tổn thương này phát triển thành mảng xơ khi hình thành và tích 
+luỹ và sự thâm nhiễm của các tế bào cơ trơn bị chuyển thành tế bào sợi.
+- Các tế bào nói trên chịu trách nhiệm chính trong việc thoái hóa mạng lưới mô liên kết 
+ngoại bào dẫn tới hình thành vỏ xơ bao phủ một lõi chứa đầy lipid, tế bào bọt, những 
+mảnh tế bào hoại tử và các tế bào viêm gồm cả các tế bào lympho T.
+- Mảng xơ vữa tích luỹ ngày càng nhiều và hậu quả dẫn đến hẹp dần lòng mạch, cuối 
+cùng có thể gây tắc mạch.
+c. Tổn thương hình thành và phát triển 
+- Tổn thương thành mạch có xu hướng thường gặp hơn ở những vị trí nhất định trong 
+lòng mạch máu. Dòng máu chảy gây ra áp lực lên thành mạch, do đó ảnh hưởng đến 
+đặc tính sinh học của lớp tế bào nội mô.
+- Ở đoạn mạch với áp lực thay đổi, nhất là ở đoạn gập góc, có dòng máu xoáy gây ra 
+rối loạn chức năng nội mạc, sẽ kích hoạt quá trình hình thành mảng xơ vữa. Điều 
+này giải thích tại sao mảng xơ vữa lại hay gặp ở các vị trí này.
+
+
+CHƯƠNG XI: BỆNH ĐỘNG MẠCH VÀNH
+509
+Hình 11.1: Cơ chế hình thành vữa xơ động mạch với bản chất là hạt LDL
+- Khi lòng ĐMV bị hẹp đáng kể (thường là trên 70%), dòng chảy tưới máu cơ tim phía 
+sau bị giảm đáng kể trong khi nhu cầu oxy của cơ tim không thay đổi, mà còn tăng 
+lên khi gắng sức. Với tình trạng thiếu cung cấp máu, cơ tim thiếu oxy phải chuyển hóa 
+trong tình trạng yếm khí. Các sản phẩm của chuyển hóa yếm khí (LDH, adenosin) kích 
+thích các đầu mút thần kinh của hệ mạch vành, gây nên cơn đau thắt ngực.
+Hình 11.2: Sơ đồ diễn tiến của mảng xơ vữa động mạch
+(Vệt mỡ có thể hình thành từ những thập niên đầu tiên của cuộc đời, khi mảng xơ vữa bị nứt vỡ sẽ dẫn 
+đến quá trình hình thành cục máu đông và xảy ra hội chứng động mạch vành cấp tùy mức độ)
+(Nguồn: Stary HC et al. Circulation 1995;92:1355-1374)
+
+
+CHƯƠNG XII: BỆNH ĐỘNG MẠCH CHỦ
+583
+CHƯƠNG XII
+BỆNH ĐỘNG MẠCH CHỦ
+1 
+Tách thành động mạch chủ cấp 
+584
+2 
+Huyết khối trong thành động mạch chủ 
+592
+3 
+Loét xuyên thành động mạch chủ 
+594
+4 
+Phình động mạch chủ ngực 
+595
+5 
+Phình động mạch chủ bụng 
+599
+6 
+Phình và tách thành động mạch chủ liên quan đến đột biến nhiễm sắc thể 
+và các hội chứng di truyền 
+603
+7 
+Hẹp eo động mạch chủ 
+606
+8 
+Bệnh lý động mạch chủ đi kèm với van động mạch chủ hai lá van 
+611
+9. 
+Tổn thương động mạch chủ do chấn thương 
+612
+10 
+Tổn thương xơ vữa của động mạch chủ 
+615
+11 
+Viêm động mạch chủ 
+618
+12 
+Khối u động mạch chủ 
+622
+PGS.TS.BS. Phạm Mạnh Hùng
+PGS.TS.BS. Nguyễn Ngọc Quang
+ThS.BSNT. Lê Xuân Thận
+ThS.BSNT. Đinh Huỳnh Linh
+BSNT. Nguyễn Duy Tuấn
+BSNT. Lê Văn Đạt
+
+
+CHƯƠNG XII: BỆNH ĐỘNG MẠCH CHỦ
+625
+CHƯƠNG XIII
+ BỆNH MẠCH MÁU 
+NGOẠI BIÊN
+1 
+Khám lâm sàng hệ mạch máu ngoại vi 
+626
+2 
+Siêu âm hệ mạch máu 
+630
+3 
+Các phương pháp thăm dò hình ảnh mạch máu khác 
+636
+4 
+Thăm dò cận lâm sàng mạch máu không xâm lấn khác 
+640
+5 
+Tắc động mạch chi dưới cấp tính 
+644
+6 
+Bệnh động mạch chi dưới mạn tính 
+649
+7 
+Bệnh lý động mạch cảnh do xơ vữa 
+655
+8 
+Bệnh lý động mạch thận 
+660
+9 
+Bệnh Buerger 
+663
+10 
+Phù bạch mạch 
+665
+11 Bất thường mạch máu bẩm sinh 
+669
+12 Huyết khối tĩnh mạch sâu chi dưới 
+674
+13 
+Bệnh tĩnh mạch chi dưới mạn tính 
+680
+14 
+Bệnh mạch máu do chèn ép 
+683
+15 
+ Loét chi dưới 
+687
+16 Đường vào mạch máu cho lọc máu ở bệnh nhân suy thận mạn 
+691
+PGS.TS.BS. Đinh Thị Thu Hương
+ThS.BSNT. Nguyễn Tuấn Hải
+ThS.BSNT. Trần Huyền Trang
+ThS.BSNT. Nguyễn Anh Quân
+ThS.BSNT. Đinh Huỳnh Linh
+ThS.BSNT. Lê Anh Tuấn
+BSNT. Vũ Hồng Phú
+
+
+CHƯƠNG XIII: BỆNH MẠCH MÁU NGOẠI BIÊN
+701
+CHƯƠNG XIV
+ BỆNH TIM BẨM SINH
+1 
+Giới thiệu 
+702
+2 
+Đánh giá bệnh nhân bị bệnh tim bẩm sinh: Lâm sàng 
+703
+3 
+Đánh giá bệnh nhân tim bẩm sinh: Cận lâm sàng 
+705
+4 
+Dấu hiệu đặc hiệu ở bệnh nhân tim bẩm sinh 
+707
+5 
+Phẫu thuật trong bệnh lý tim bẩm sinh 
+708
+6 
+Can thiệp qua đường ống thông trong điều trị bệnh nhân tim bẩm sinh 
+712
+7 
+Các vấn đề quản lý chuyên biệt 
+715
+8 
+Vấn đề thai sản ở phụ nữ mắc tim bẩm sinh 
+717
+9 
+Một số bệnh lý tim bẩm sinh thường gặp 
+718
+10 
+Biến chứng ngoài tim ở bệnh nhân bệnh tim bẩm sinh 
+723
+PGS.TS.BS. Nguyễn Lân Hiếu
+TS.BSNT. Nguyễn Minh Hùng
+ThS.BSNT. Đỗ Thu Trang
+ThS.BSNT. Nguyễn Văn Hiếu
+ThS.BSNT. Phạm Quốc Đạt
+ThS.BSNT. Kim Ngọc Thanh
+ThS.BS. Đỗ Quốc Hiển
+ThS.BS. Trần Bảo Trang
+ThS.BSNT. Nguyễn Thị Duyên
+BSNT. Vũ Thị Mai
+
+
+CHƯƠNG XV: BỆNH TIM VÀ THAI NGHÉN
+729
+CHƯƠNG XV
+ BỆNH TIM 
+VÀ THAI NGHÉN
+1 
+Tổng quan 
+731
+2 
+Những thay đổi sinh lý tuần hoàn ở phụ nữ có thai 
+731
+3 
+Những biểu hiện bình thường ở phụ nữ có thai 
+733
+4 
+Những lưu ý chung ở phụ nữ có thai và bệnh tim mạch 
+733
+5 
+Những điểm mới thay đổi trong hướng dẫn của ESC 2018 về bệnh tim mạch 
+ở phụ nữ có thai 
+736
+6 
+Tăng huyết áp ở phụ nữ có thai 
+739
+7 
+Bệnh van tim ở phụ nữ có thai 
+743
+8 
+Hẹp van hai lá ở phụ nữ có thai 
+744
+9 
+Bệnh lý van tim khác ở phụ nữ có thai 
+745
+10 
+Van tim cơ học ở phụ nữ có thai 
+746
+11 
+Tăng áp lực động mạch phổi ở phụ nữ có thai 
+750
+PGS.TS.BS. Đinh Thị Thu Hương
+TS.BSNT. Dương Đức Hùng
+TS.BS. Phạm Thái Sơn
+ThS.BSNT. Văn Đức Hạnh
+ThS.BSNT. Trần Huyền Trang
+ThS.BSNT. Nguyễn Thị Miên
+ThS.BSNT. Giáp Thị Minh Nguyệt
+ThS.BSNT. Bùi Nguyên Tùng
+ThS.BS. Ngô Phi Long
+BSNT. Vũ Hồng Phú
+
+
+CHƯƠNG XV: BỆNH TIM VÀ THAI NGHÉN
+730
+12 
+Hội chứng marfan và bệnh lý động mạch chủ khi mang thai 
+751
+13 
+Bệnh cơ tim phì đại ở phụ nữ có thai 
+752
+14 
+Bệnh cơ tim chu sản 
+753
+15 
+Bệnh tim thiếu máu cục bộ ở phụ nữ có thai 
+754
+16 
+Rối loạn nhịp ở phụ nữ có thai 
+755
+17 
+Ngừng tuần hoàn ở phụ nữ có thai 
+757
+
+
+CHƯƠNG XVI: TỔN THƯƠNG TIM MẠCH Ở MỘT SỐ BỆNH LÝ ĐA CƠ QUAN
+761
+CHƯƠNG XVI
+TỔN THƯƠNG TIM MẠCH 
+Ở MỘT SỐ BỆNH LÝ 
+ĐA CƠ QUAN
+1 
+Tổn thương tim mạch ở bệnh nhân có bệnh tự miễn 
+763
+2 
+Tổn thương tim mạch ở bệnh nhân viêm khớp dạng thấp 
+765
+3 
+Tổn thương tim mạch ở bệnh nhân lupus ban đỏ hệ thống 
+767
+4 
+Tổn thương tim mạch trong lupus ở trẻ sơ sinh 
+768
+5 
+Hội chứng kháng Phospholipid 
+768
+6 
+Bệnh xơ cứng bì 
+770
+7 
+Viêm cột sống dính khớp 
+770
+8 
+Bệnh viêm đa cơ và viêm da cơ 
+771
+9 
+Bệnh mô liên kết hỗn hợp 
+772
+10 
+Hội chứng Marfan 
+772
+11 
+Hội chứng Ehlers-Danlos 
+774
+GS.TS.BS. Nguyễn Lân Việt
+PGS.TS.BS. Phạm Thị Hồng Thi
+TS.BS. Vũ Kim Chi
+TS.BS. Phạm Thái Sơn
+TS.BS. Nguyễn Thị Mai Ngọc
+ThS.BSNT. Trần Huyền Trang
+ThS.BS. Đỗ Quốc Hiển
+ThS.BSNT. Nguyễn Anh Quân
+ThS.BSNT. Nguyễn Phương Anh
+ThS.BSNT. Kim Ngọc Thanh
+ThS.BS. Phan Thanh Nam
+ThS.BS. Trần Bảo Trang
+ThS.BS. Đào Ngọc Thủy
+BSNT. Nguyễn Duy Tuấn
+
+
+CHƯƠNG XVI: TỔN THƯƠNG TIM MẠCH Ở MỘT SỐ BỆNH LÝ ĐA CƠ QUAN
+762
+12 
+Tăng áp lực động mạch phổi và bệnh lý mô liên kết 
+776
+13 
+Bệnh thận mạn và bệnh lý tim mạch 
+776
+14 
+Rối loạn chức năng cương dương và bệnh lý tim mạch 
+779
+15 
+Hội chứng SJogren 
+783
+16 
+Viêm mạch lớn 
+783
+17 
+Viêm mạch trung bình 
+788
+18 
+Viêm mạch máu nhỏ 
+792
+
+
+CHƯƠNG XVII: MỘT SỐ BỆNH TIM MẠCH KHÁC DO NHIỄM TRÙNG 
+HOẶC RỐI LOẠN DINH DƯỠNG
+797
+CHƯƠNG XVII
+MỘT SỐ BỆNH TIM MẠCH 
+KHÁC DO NHIỄM TRÙNG 
+HOẶC RỐI LOẠN DINH DƯỠNG
+1 
+Gánh nặng bệnh tim mạch ở các quốc gia đang phát triển 
+798
+2 
+Bệnh bạch hầu 
+799
+3 
+HIV và bệnh lý tim mạch 
+800
+4 
+Bệnh Chagas và các tổn thương tim 
+801
+5 
+Bệnh tim mạch do giang mai 
+803
+6 
+Bệnh Beri-beri 
+804
+7 
+Bệnh uốn ván 
+806
+8 
+Bệnh Keshan 
+806
+9 
+Bệnh cơ tim hạn chế 
+806
+PGS.TS.BS. Nguyễn Thị Bạch Yến
+ThS.BSNT. Lê Ngọc Thạch
+ThS.BSNT. Trần Huyền Trang
+ThS.BSNT. Văn Đức Hạnh
+ThS.BSNT. Đàm Trung Hiếu
+ThS.BSNT. Nguyễn Đức Nhã
+ThS.BSNT. Lê Tuấn Minh
+BSNT. Phùng Đình Thọ
+
+
+CHƯƠNG XVIII: RỐI LOẠN NHỊP TIM THƯỜNG GẶP
+813
+CHƯƠNG XVIII
+RỐI LOẠN NHỊP TIM 
+THƯỜNG GẶP
+1 
+Hệ thống dẫn truyền của tim 
+814
+2 
+Một số triệu chứng lâm sàng liên quan rối loạn nhịp 
+815
+3 
+Nhịp tim chậm 
+820
+4 
+Một số rối loạn nhịp tim chậm thường gặp 
+822
+5 
+Nhịp tim nhanh 
+828
+6 
+Một số rối loạn nhịp tim nhanh thường gặp 
+837
+7 
+Các hội chứng rối loạn nhịp di truyền 
+855
+8 
+Rối loạn nhịp tim trong những trường hợp đặc biệt 
+861
+9 
+Máy tạo nhịp vĩnh viễn 
+862
+10 
+Liệu pháp tái đồng bộ cơ tim 
+868
+PGS.TS.BS. Phạm Quốc Khánh
+TS.BSNT. Trần Văn Đồng
+TS.BSNT. Trần Song Giang
+TS.BSNT. Phạm Trần Linh
+TS.BSNT. Phan Đình Phong
+ThS.BSNT. Trần Tuấn Việt
+ThS.BS. Lê Võ Kiên
+ThS.BSNT. Nguyễn Duy Linh
+ThS.BSNT. Viên Hoàng Long
+BSNT. Trần Hồng Quân
+BSNT. Võ Duy Văn
+
+
+CHƯƠNG XIX: CÁC THỦ THUẬT THƯỜNG DÙNG TRONG TIM MẠCH
+873
+CHƯƠNG XIX
+ CÁC THỦ THUẬT 
+THƯỜNG DÙNG 
+TRONG TIM MẠCH
+1 
+Lấy khí máu động mạch 
+874
+2 
+Đặt ống thông theo dõi huyết áp động mạch xâm lấn 
+875
+3 
+Đặt ống thông tĩnh mạch trung tâm 
+878
+4 
+Đặt ống thông đo áp lực động mạch phổi 
+884
+5 
+Đặt máy tạo nhịp tim tạm thời 
+888
+6 
+Chọc hút dịch màng ngoài tim 
+892
+7 
+Sốc điện chuyển nhịp 
+895
+8 
+Đặt bóng đối xung động mạch chủ 
+898
+PGS.TS.BS. Nguyễn Ngọc Quang
+TS.BS. Phạm Minh Tuấn
+TS.BSNT. Nguyễn Minh Hùng
+TS.BSNT. Tô Thanh Lịch
+ThS.BSNT. Văn Đức Hạnh
+ThS.BSNT. Nguyễn Trung hậu
+ThS.BSNT. Đoàn Tuấn Vũ
+ThS.BSNT. Dương Thị Hoan
+ThS.BSNT. Lê Ngọc Anh
+ThS.BS. Lê Đức Thắng
+BS. Tạ Đình Đô
+BSNT. Trần Văn Đông
+BSNT. Nguyễn Việt Dũng
+BSNT. Vương Thị Ánh Tuyết
+
+
+CHƯƠNG XX: THÔNG TIM THĂM DÒ HUYẾT ĐỘNG VÀ CAN THIỆP TIM MẠCH
+905
+CHƯƠNG XX
+THÔNG TIM THĂM DÒ 
+HUYẾT ĐỘNG VÀ 
+CAN THIỆP TIM MẠCH
+1 
+An toàn bức xạ trong phòng thông tim 
+907
+2 
+Đường vào mạch máu 
+907
+3 
+Kiểm soát vị trí đường vào mạch máu 
+910
+4 
+Thông tim 
+912
+5 
+Chụp động mạch vành 
+916
+6 
+Phân tích kết quả chụp mạch vành 
+918
+7 
+Siêu âm trong lòng mạch 
+923
+8 
+Phân suất dự trữ lưu lượng vành (FFR) 
+927
+9 
+Can thiệp động mạch vành qua da 
+930
+10 
+Can thiệp động mạch vành thì đầu trong nhồi máu cơ tim cấp có ST 
+chênh lên 
+934
+PGS.TS.BS. Phạm Mạnh Hùng
+PGS.TS.BS. Nguyễn Lân Hiếu
+PGS.TS.BS. Nguyễn Ngọc Quang
+TS.BSNT. Nguyễn Quốc Thái
+ThS.BSNT. Nguyễn Hữu Tuấn
+ThS.BSNT. Phạm Nhật Minh
+ThS.BSNT. Phan Tuấn Đạt
+ThS.BSNT. Đinh Huỳnh Linh
+ThS.BSNT. Lê Xuân Thận
+ThS.BSNT. Nguyễn Văn Hiếu
+ThS.BSNT. Lê Thanh Bình
+ThS.BSNT. Hoàng Việt Anh
+ThS.BSNT. Bùi Nguyên Tùng
+ThS.BSNT. Nguyễn Trung Hậu
+ThS.BSNT. Nguyễn Bá Ninh
+BSNT. Phạm Đình Vụ
+BSNT. Ngô Quang Tùng
+
+
+CHƯƠNG XX: THÔNG TIM THĂM DÒ HUYẾT ĐỘNG VÀ CAN THIỆP TIM MẠCH
+906
+11 
+Can thiệp tổn thương động mạch vành phức tạp 
+938
+12 
+Các thuốc điều trị hỗ trợ cho nong và đặt stent 
+mạch vành 
+945
+13 
+Dụng cụ ngăn ngừa thuyên tắc mạch và một số kỹ thuật đặc biệt trong 
+can thiệp tim mạch 
+947
+14 
+Tái hẹp sau can thiệp mạch vành qua da 
+949
+15 
+Nong van hai lá bằng bóng qua da 
+952
+16 
+Nong van động mạch chủ qua da 
+954
+17 
+Nong van động mạch phổi qua da 
+956
+18 
+Thay van động mạch chủ qua đường ống thông (TAVI) 
+958
+19 
+Sửa van hai lá qua đường ống thông bằng thiết bị MitraClip 
+960
+20 
+Bít thông liên nhĩ qua đường ống thông 
+965
+21 
+Bít thông liên thất qua đường ống thông 
+967
+22 
+Bít ống động mạch qua đường ống thông 
+970
+23 
+Bít tiểu nhĩ trái bằng dụng cụ 
+972
+24 
+Triệt đốt vách liên thất bằng cồn qua đường ống thông 
+975
+25 
+Sinh thiết cơ tim 
+979
+26 
+Đặt stent graft điều trị bệnh động mạch chủ 
+981
+
+
+CHƯƠNG XXI: THĂM DÒ ĐIỆN SINH LÝ VÀ ĐIỀU TRỊ RỐI LOẠN NHỊP TIM
+QUA ĐƯỜNG ỐNG THÔNG
+985
+CHƯƠNG XXI
+THĂM DÒ ĐIỆN SINH LÝ VÀ 
+ĐIỀU TRỊ RỐI LOẠN NHỊP TIM 
+QUA ĐƯỜNG ỐNG THÔNG
+1 
+Đại cương 
+987
+2 
+Các cơ chế gây rối loạn nhịp tim 
+987
+3 
+Thăm dò điện sinh lý tim 
+990
+4 
+Ứng dụng của thăm dò điện sinh lý 
+992
+5 
+Các kỹ thuật mới 
+997
+6 
+Triệt đốt qua đường ống thông 
+999
+7 
+Biến chứng của triệt đốt qua ống thông 
+1000
+8 
+Chọc vách liên nhĩ 
+1001
+9 
+Các rối loạn nhịp nhĩ: Cơ chế 
+1003
+10 
+Triệt đốt nhịp nhanh nhĩ 
+1004
+11 
+Triệt đốt rung nhĩ 
+1005
+12 
+Biến chứng của triệt đốt rung nhĩ 
+1008
+13 
+Cơ chế của cơn nhịp nhanh vòng vào lại nhĩ-thất 
+1008
+14 
+Triệt đốt cơn AVRT và cơn AVNRT 
+1011
+TS.BSNT. Trần Văn Đồng
+PGS.TS.BS. Phạm Quốc Khánh
+TS.BSNT. Trần Song Giang
+TS.BSNT. Phạm Trần Linh
+TS.BSNT. Phan Đình Phong
+ThS.BSNT. Trần Tuấn Việt
+ThS.BSNT. Nguyễn Thị Lệ Thúy
+ThS.BSNT. Lê Văn Tuấn
+ThS.BSNT. Trịnh Văn Nhị
+BSNT. Trần Hồng Quân
+
+
+CHƯƠNG XXI: THĂM DÒ ĐIỆN SINH LÝ VÀ ĐIỀU TRỊ RỐI LOẠN NHỊP TIM 
+QUA ĐƯỜNG ỐNG THÔNG
+986
+15 
+Đường dẫn truyền phụ (Hội chứng Wolff-Parkinson-White) 
+1012
+16 
+Định vị đường dẫn truyền phụ 
+1014
+17 
+Đường dẫn truyền phụ: Điều trị 
+1015
+18 
+Cơ chế cơn nhịp nhanh thất 
+1015
+19 
+Triệt đốt nhịp nhanh thất 
+1017
+20 
+Máy phá rung tự động 
+1019
+21 
+Lập trình máy phá rung tự động (ICD) 
+1021
+22 
+Xử lý các sự cố của máy phá rung chuyển nhịp tự động (ICD) 
+1022
+
+
+CHƯƠNG XXII: CÁC THUỐC THƯỜNG DÙNG TRONG TIM MẠCH
+1025
+CHƯƠNG XXII
+CÁC THUỐC 
+THƯỜNG DÙNG 
+TRONG TIM MẠCH
+1 
+Thuốc kháng kết tập tiểu cầu 
+1027
+2 
+Thuốc chống đông 
+1036
+3 
+Thuốc ức chế men chuyển 
+1046
+4 
+Thuốc ức chế thụ thể 
+1048
+5 
+Thuốc ức chế thụ thể neprilysin/angiotensin 
+1051
+6 
+Thuốc chẹn beta giao cảm 
+1053
+7 
+Thuốc chẹn kênh canxi 
+1057
+8 
+Thuốc lợi tiểu 
+1060
+9 
+Thuốc đối kháng aldosterone 
+1064
+10 
+Thuốc điều trị rối loạn lipid máu 
+1067
+GS.TS.BS. Nguyễn Lân Việt
+PGS.TS.BS. Phạm Thị Hồng Thi
+TS.BS. Hàn Nhất Linh
+ThS.BSNT. Phan Tuấn Đạt
+ThS.BSNT. Trần Tuấn Việt
+ThS.BSNT. Bùi Nguyên Tùng
+ThS.BSNT. Lê Ngọc Thạch
+ThS.BSNT. Đàm Trung Hiếu
+ThS.BS. Lê Võ Kiên
+ThS.BSNT. Nguyễn Trung Hậu
+ThS.BSNT. Nguyễn Thị Miên
+ThS.BSNT. Trần Huyền Trang
+ThS.BS. Doãn Hữu Linh
+ThS.BSNT. Lê Tuấn Minh
+ThS.BSNT. Đào Minh Đức
+BSNT. Phạm Thị Thanh Thảo
+BSNT. Trần Sơn Hải
+BSNT. Trần Đình Tuyên
+
+
+CHƯƠNG XXII: CÁC THUỐC THƯỜNG DÙNG TRONG TIM MẠCH
+1026
+11 
+Thuốc điều trị rối loạn nhịp thường dùng 
+1076
+12 
+Thuốc vận mạch 
+1082
+13 
+Thuốc tiêu sợi huyết 
+1086
+14 
+Thuốc nitrate (glyceryl trinitrate, isosorbide mononitrate, isosorbide dinitrate) 1090
+15 
+Thuốc hoạt hóa kênh kali (nicorandil) 
+1091
+16 
+Ivabradine 
+1092
+17 
+Trimetazidine 
+1094
+
+
+CHƯƠNG XXII: CÁC THUỐC THƯỜNG DÙNG TRONG TIM MẠCH
+1027
+1. THUỐC KHÁNG KẾT TẬP TIỂU CẦU
+ Thuốc kháng kết tập tiểu cầu thường được sử dụng để giảm nguy cơ hình thành huyết khối 
+động mạch bằng cách ngăn ngừa sự hoạt hóa và kết tập tiểu cầu. Bên cạnh đó, thuốc kháng 
+kết tập tiểu cầu có vai trò dự phòng tiên phát cũng như thứ phát các bệnh lý tim mạch.
+1.1. Aspirin
+a. Cơ chế hoạt động
+Aspirin ngăn chặn con đường hoạt hóa tiểu cầu của thromboxane A2 bằng việc acetyl hóa 
+không hồi phục enzyme cyclooxygenase (COX). Tác dụng của aspirin tồn tại trong suốt thời 
+gian sống của tiểu cầu (trung bình khoảng 8 - 9 ngày).
+Sự ngưng tập tiểu cầu xảy ra do sự hình thành các cầu nối fibrinogen giữa các phân tử glyco-
+protein IIb/IIIa bộc lộ trên bề mặt tiểu cầu đã được hoạt hóa. Tiểu cầu được hoạt hóa bằng một 
+số con đường với các chất ức chế riêng biệt (Bảng 22.1).
+Con đường hoạt hóa tiểu cầu
+ Thuốc ức chế ngưng tập tiểu cầu
+Thromboxane A2
+ Aspirin
+Qua trung gian ADP
+ Clopidogrel
+ Prasugrel
+ Ticlopidine
+ Ticagrelor
+Thrombin
+ Heparin
+ Bivalirudin
+Qua thụ thể glycoprotein IIb/IIIa
+ Abciximab
+ Eptifibatide
+ Tirofiban
+b. Bằng chứng lâm sàng
+Dự phòng thứ phát:
+Từ những năm 1980, có nhiều dữ liệu lâm sàng ủng hộ việc sử dụng aspirin trong dự phòng 
+thứ phát các bệnh lý tim mạch, đặc biệt sau khi Nghiên cứu Quốc tế lần thứ 2 về nhồi máu cơ 
+tim (Second International Study of Infarct Survival – ISIS-2) được công bố. Việc sử dụng aspirin 
+liều 300 mg trong nhồi máu cơ tim cấp làm giảm tỷ lệ tử vong tới 23%. Thử nghiệm về chống 
+huyết khối (The Antithrombotic Trialists' Collaboration) kết luận rằng sau nhồi máu cơ tim cấp, 
+aspirin làm giảm tỷ lệ các biến cố tim mạch về sau tới 25%.
+Dự phòng tiên phát:
+Vai trò của aspirin trong dự phòng tiên phát các bệnh lý tim mạch chưa thực sự rõ ràng, cần 
+cân bằng giữa nguy cơ bệnh lý tim mạch và nguy cơ xuất huyết. Không nên sử dụng aspirin 
+BẢNG 22.1
+Các con đường hoạt hóa tiểu cầu và một số chất ức chế 
+ngưng tập tiểu cầu
+
+
+CHƯƠNG XXII: CÁC THUỐC THƯỜNG DÙNG TRONG TIM MẠCH
+1028
+thường quy cho các bệnh nhân có nguy cơ bệnh lý tim mạch thấp hoặc trung bình (khả năng 
+mắc bệnh tim mạch ước tính thấp hơn 5% trong 10 năm).
+Với các bệnh nhân có nguy cơ bệnh lý tim mạch cao (nguy cơ mắc bệnh lý tim mạch trên 5% 
+trong 10 năm), việc sử dụng aspirin thường quy cũng còn nhiều tranh cãi; nhiều chuyên gia 
+cho rằng không nên sử dụng thường quy kể cả với nhóm bệnh nhân này. Sử dụng aspirin liều 
+thấp ước tính có thể phòng ngừa cho 10 - 15 người trong tổng số 1000 người trong 2 năm, 
+tuy nhiên nguy cơ xuất huyết tăng 2 đến 3 lần. Trong số các bệnh nhân tăng huyết áp, việc sử 
+dụng aspirin liều thấp có thể làm tăng nguy cơ xuất huyết nội sọ, vì vậy cần duy trì huyết áp 
+dưới mức 150/90 mmHg khi thuốc được khởi trị với mục đích dự phòng tiên phát.
+Sự ngưng tập tiểu cầu xảy ra do sự hình thành các cầu nối fibrinogen giữa các phân tử glyco-
+protein IIb/IIIa bộc lộ trên bề mặt tiểu cầu đã được hoạt hóa. Tiểu cầu được hoạt hóa bằng một 
+số con đường với các chất ức chế riêng biệt (Bảng 22.1).
+c. Chỉ định của aspirin
+Dự phòng thứ phát bệnh tim mạch:
+- Cơn đau thắt ngực, sau can thiệp động mạch vành qua da hoặc phẫu thuật cầu nối 
+chủ vành, sau nhồi máu cơ tim.
+- Đột quỵ thiếu máu não.
+- Bệnh động mạch ngoại biên.
+Dự phòng tiên phát bệnh tim mạch: Hiện nay không còn được khuyến cáo sử dụng aspirin 
+thường quy trong dự phòng tiên phát.
+d. Chống chỉ định và cảnh báo
+- Chống chỉ định: Tiền sử dị ứng với aspirin, loét dạ dày - tá tràng đang hoạt động, tiền 
+sử xuất huyết tiêu hóa gần đây, tiền sử đột quỵ xuất huyết não gần đây, các rối loạn 
+về đông máu như bệnh hemophilia, bệnh von Willebrand, giảm tiểu cầu, bệnh lý về 
+gan nặng.
+- Thận trọng: Hen phế quản, tăng huyết áp không kiểm soát, tiền sử loét dạ dày - tá 
+tràng.
+e. Liều dùng
+- Dự phòng thứ phát bệnh tim mạch: Aspirin liều thấp 75 - 100 mg/24 giờ đối với các 
+bệnh nhân hội chứng động mạch vành mạn, tiền sử nhồi máu cơ tim, tiền sử đột 
+quỵ thiếu máu não hoặc thiếu máu não cục bộ thoáng qua, tiền sử bệnh động mạch 
+ngoại biên.
+- Liều dùng aspirin trong điều trị bệnh động mạch vành (Xem chương XI. Bệnh động 
+mạch vành).
+- Liều dùng aspirin trong điều trị bệnh động mạch ngoại biên: 75 - 100 mg/ngày.
+f. Sự đề kháng aspirin
+Hiệu quả của aspirin trong thực hành lâm sàng bị ảnh hưởng bởi hiện tượng 'kháng aspirin'. 
+Khoảng 10% số bệnh nhân được điều trị xảy ra hiện tượng này. Tuy nhiên, vì các xét nghiệm đánh 
+giá hoạt động của tiểu cầu chưa được tiến hành rộng rãi, 'kháng aspirin' hiếm khi được xác định.
+
+
+CHƯƠNG XXII: CÁC THUỐC THƯỜNG DÙNG TRONG TIM MẠCH
+1029
+g. Tác dụng phụ của aspirin
+Aspirin ngay cả khi sử dụng với liều thấp có thể làm khởi phát co thắt phế quản ở 20% các 
+bệnh nhân có hen phế quản.
+Các tác dụng phụ trên đường tiêu hóa của aspirin khá phổ biến, với biểu hiện từ cảm giác 
+buồn nôn sau uống aspirin vài giờ, tới các xuất huyết tiêu hóa nặng. Aspirin làm gia tăng nguy 
+cơ xuất huyết tiêu hóa tại các ổ loét ở hành tá tràng hơn là các ổ loét tại dạ dày và thường xảy 
+ra trong những ngày đầu điều trị.
+Yếu tố nguy cơ gây xuất huyết tiêu hóa khi dùng aspirin cần được đánh giá trước khi 
+sử dụng
+- Tuổi: Nguy cơ xuất huyết tăng lên 2 lần sau mỗi 10 năm ở bệnh nhân trên 55 tuổi.
+- Giới: Nguy cơ tăng gấp 2 lần ở nam giới so với nữ giới.
+- Tiền sử loét dạ dày tá tràng, tiền sử xuất huyết hoặc thủng dạ dày tá tràng.
+- Sử dụng các thuốc phối hợp khác như NSAIDs, thuốc chống đông, thuốc ức chế tái 
+hấp thu serotonin chọn lọc (SSRIs).
+- Cần điều trị NSAIDs kéo dài trong một số bệnh lý: viêm xương khớp, thấp khớp, đau 
+thắt lưng mạn tính.
+- Mắc một số bệnh lý khác phối hợp như bệnh tim mạch, bệnh lý về gan, thận, đái tháo 
+đường.
+- Nhiễm vi khuẩn Helicobacter pylori.
+- Nghiện rượu.
+- Hút thuốc lá nhiều.
+Chiến lược giúp giảm nguy cơ xuất huyết khi sử dụng aspirin
+- Dùng aspirin liều thấp 75 mg/24 giờ, chỉ dùng liều cao khi có chỉ định.
+- Dùng aspirin sau ăn no.
+- Tránh/hạn chế dùng phối hợp với các thuốc NSAIDs hoặc thuốc chống đông cả 
+đường uống và đường tiêm.
+- Đánh giá lại nguy cơ xuất huyết cũng như đơn thuốc đang dùng, xem xét dừng hoặc 
+giảm bớt liều nếu nguy cơ xuất huyết tăng lên.
+- Hạn chế uống rượu bia.
+- Giảm bớt hoặc ngừng hẳn việc hút thuốc lá.
+- Cân nhắc sử dụng phối hợp PPIs nếu bệnh nhân có nhiều nguy cơ.
+- Không có chỉ định sử dụng các thuốc bọc niêm mạc dạ dày ruột thường quy vì không 
+giúp giảm nguy cơ xuất huyết và ngược lại nếu dùng kéo dài có thể dẫn đến nhiều 
+tác dụng phụ.
+h. Tương tác thuốc
+- Thuốc giảm đau: Cần tránh sử dụng phối hợp với NSAIDs vì có thể làm tăng các tác 
+dụng phụ của thuốc.
+
+
+MỘT SỐ THANG ĐIỂM THƯỜNG DÙNG TRONG TIM MẠCH
+1097
+PHỤ LỤC
+MỘT SỐ THANG ĐIỂM 
+THƯỜNG DÙNG 
+TRONG TIM MẠCH
+1 
+Thang điểm EuroSCORE (European System for Cardiac Operative 
+Risk Evaluation): Đánh giá và phân tầng nguy cơ phẫu thuật tim 
+của châu Âu 
+1099
+2 
+Thang điểm CHA2DS2-VASc: Đánh giá nguy cơ đột quỵ do huyết khối 
+ở các bệnh nhân rung nhĩ không do bệnh van tim 
+1100
+3 
+ Thang điểm HAS-BLED 
+1101
+4 
+Thang điểm PRECISE DAPT: Đánh giá nguy cơ chảy máu ở bệnh 
+nhân sử dụng liệu pháp kháng kết tập tiểu cầu kép sau đặt stent 
+động mạch vành 
+1102
+5 
+Thang điểm điều trị kháng kết tiểu cầu kép DAPT (Dual antiplatelet therapy): 
+Đánh giá lợi ích của việc sử dụng kéo dài liệu pháp ức chế kết tập tiểu cầu 
+kép sau 12 tháng 
+1103
+6 
+Thang điểm TIMI Score: Tiên lượng tử vong 30 ngày và 1 năm ở bệnh nhân 
+hội chứng động mạch vành cấp (NMCT cấp có ST chênh lên hoặc ĐNKÔĐ/
+NMCT cấp không có ST chênh lên) 
+1103
+7 
+Thang điểm GRACE (Global Registry of Acute Coronary Events): Dự báo 
+nguy cơ tử vong trong vòng 6 tháng ở bệnh nhân hội chứng động mạch 
+vành cấp 
+1106
+PGS.TS.BS. Phạm Mạnh Hùng
+ThS.BSNT. Lê Tuấn Minh
+ThS.BSNT. Đoàn Tuấn Vũ
+ThS.BSNT. Nguyễn Văn Hiếu
+BSNT. Võ Duy Văn
+
+
+MỘT SỐ THANG ĐIỂM THƯỜNG DÙNG TRONG TIM MẠCH
+1098
+8 
+Thang điểm CRUSADE: Đánh giá nguy cơ chảy máu lớn ở bệnh nhân nhồi 
+máu cơ tim cấp không có ST chênh lên 
+1107
+9 
+Thang điểm WELLS cải tiến: Đánh giá khả năng lâm sàng bị huyết khối 
+tĩnh mạch sâu chi dưới 
+1108
+10 Thang điểm WELL đầy đủ và đơn giản hóa: Dự đoán nguy cơ thuyên tắc 
+động mạch phổi 
+1109
+11 
+Thang điểm PESI (Pulmonary embolism severity index): Tiên lượng mức độ 
+nặng ở bệnh nhân thuyên tắc động mạch phổi 
+1110
+12 Bảng điểm sPESI: Tiên lượng mức độ nặng ở bệnh nhân thuyên tắc động 
+mạch phổi 
+1111
+13 Thang điểm PADUA: Đánh giá nguy cơ bị huyết khối tĩnh mạch (HKTM) 
+ở bệnh nhân nội khoa cấp (Padua prediction score - PPS) 
+1111
+14 Thang điểm IMPROVE: Đánh giá nguy cơ chảy máu để lựa chọn biện pháp 
+dự phòng thích hợp 
+1112
+15 Thang điểm đánh giá đột quỵ của Viện nghiên cứu sức khỏe quốc gia Mỹ - 
+NIHSS (National Institutes of Health Stroke Scale) 
+1113
+
+
+MỘT SỐ THANG ĐIỂM THƯỜNG DÙNG TRONG TIM MẠCH
+1099
+1. THANG ĐIỂM EUROSCORE (EUROPEAN SYSTEM FOR CARDIAC 
+OPERATIVE RISK EVALUATION): ĐÁNH GIÁ VÀ PHÂN TẦNG 
+NGUY CƠ PHẪU THUẬT TIM CỦA CHÂU ÂU
+Yếu tố nguy cơ
+Cách đánh giá
+Điểm
+Tuổi
+Tăng mỗi 5 năm sau 60 tuổi.
+1
+Giới
+Nữ
+1
+Bệnh phổi mạn tính
+Sử dụng lâu dài các thuốc giãn phế quản hoặc steroids
+1
+Bệnh lý ở các động 
+mạch ngoài tim
+Có 1 hoặc nhiều các bệnh lý sau: Đau cách hồi, tắc động 
+mạch cảnh > 50%, phẫu thuật trước đây hoặc phẫu thuật 
+chương trình trên động mạch chủ, động mạch chi hoặc 
+động mạch cảnh.
+2
+Rối loạn chức năng 
+thần kinh
+Bệnh lý ảnh hưởng nghiêm trọng đến khả năng đi lại 
+hoặc sinh hoạt hằng ngày.
+2
+Phẫu thuật tim 
+trước đây
+Phẫu thuật đòi hỏi mở khoang màng ngoài tim.
+3
+Creatinine huyết 
+thanh
+> 200 μmol/L trước mổ.
+2
+Viêm nội tâm mạc 
+tiến triển
+Bệnh nhân đang được điều trị kháng sinh tại thời điểm 
+phẫu thuật.
+3
+Tình trạng trước mổ 
+nguy kịch
+Có một hoặc nhiều trong các tình trạng sau:
+Nhịp nhanh thất hoặc rung thất hoặc ngất, ép tim ngoài 
+lồng ngực trước phẫu thuật, thông khí cơ học trước khi 
+đến phòng gây mê, phải hỗ trợ inotrope trước mổ, IABP 
+hoặc suy thận cấp trước mổ.
+3
+Yếu tố nguy cơ do tim
+Điểm
+Cơn đau thắt ngực 
+không ổn định
+Đau ngực đòi hỏi Nitrat tĩnh mạch cho đến khi chuyển 
+vào phòng gây mê.
+2
+Rối loạn chức năng 
+thất trái
+LVEF: 30 - 50%
+LVEF: < 30%
+Nhồi máu cơ tim gần đây (< 90 ngày).
+1
+3
+2
+Tăng áp lực động 
+mạch phổi
+Áp lực động mạch phổi tâm thu > 60 mmHg.
+2
+Yếu tố nguy cơ do phẫu thuật
+Điểm
+Cấp cứu
+2
+
+
+MỘT SỐ THANG ĐIỂM THƯỜNG DÙNG TRONG TIM MẠCH
+1100
+Phẫu thuật khác 
+ngoài cầu nối động 
+mạch vành
+Phẫu thuật tim lớn khác hoặc kết hợp với phẫu thuật cầu 
+nối động mạch vành.
+2
+Phẫu thuật trên 
+động mạch chủ
+Phẫu thuật có can thiệp đến động mạch chủ lên, quai 
+hoặc động mạch chủ xuống.
+3
+Thủng vách liên 
+thất sau nhồi máu 
+cơ tim
+4
+Áp dụng:
+Điểm 
+Nguy cơ phẫu thuật tim
+0 - 2 
+Nguy cơ thấp, tỷ lệ tử vong dưới 1%
+2 - 5 
+Nguy cơ vừa, tỷ lệ tử vong khoảng 3%
+≥ 6
+Nguy cơ cao, tỷ lệ tử vong 10 - 11%
+2. THANG ĐIỂM CHA2DS2-VASc: ĐÁNH GIÁ NGUY CƠ ĐỘT QUỴ 
+DO HUYẾT KHỐI Ở CÁC BỆNH NHÂN RUNG NHĨ KHÔNG DO 
+BỆNH VAN TIM
+Yếu tố nguy cơ
+Điểm
+CHA2DS2-
+VASc (Điểm)
+Tỷ lệ đột quỵ được 
+điều chỉnh mỗi năm 
+(% mỗi năm)
+0
+0.0
+Suy tim sung huyết
+1
+1
+1,3
+Tăng huyết áp
+1
+2
+2,2
+Tuổi ≥ 75
+2
+3
+3,2
+Đái tháo đường
+1
+4
+4.0
+Đột quỵ/ TIA/ thuyên tắc mạch
+2
+5
+6,7
+Bệnh mạch máu (tiền sử nhồi máu 
+cơ tim, bệnh động mạch ngoại 
+biên hoặc xơ vữa động mạch chủ)
+1
+6
+9,8
+Tuổi 65-74
+1
+7
+9,6
+Giới nữ
+1
+8
+6,7
+Điểm tối đa
+9
+9
+15,2
+
+
+MỘT SỐ THANG ĐIỂM THƯỜNG DÙNG TRONG TIM MẠCH
+1101
+Định nghĩa rung nhĩ không do bệnh van tim: Theo ESC 2016, rung nhĩ không do bệnh van tim 
+là không có hẹp van 2 lá từ mức độ vừa trở lên, không có van tim cơ học.
+Áp dụng:
+- 0 điểm: Không dùng thuốc chống đông (Giới tính nữ nếu không kèm theo yếu tố 
+nguy cơ nào khác được tính tương đương 0 điểm).
+- 1 điểm: Cân nhắc dùng thuốc chống đông đường uống (IIa).
+- ≥ 2 điểm: Dùng thuốc chống đông đường uống (IA), cân nhắc dụng cụ bít tiểu nhĩ 
+trái nếu có chống chỉ định dùng thuốc chống đông (IIbC).
+3. THANG ĐIỂM HAS-BLED
+Chữ viết tắt
+Các đặc điểm lâm sàng
+Điểm số
+H
+Tăng huyết áp
+1
+A
+Bất thường chức năng gan và thận ( 1 điểm cho mỗi bệnh lý )
+1 hoặc 2 
+S
+Đột quỵ
+1
+B
+Xuất huyết
+1
+L
+INR bất thường
+1
+E
+Lớn tuổi (> 65 tuổi)
+1
+D
+Sử dụng thuốc hoặc rượu ( 1 điểm cho mỗi loại
+1 hoặc 2
+Tối đa
+9
+Chú thích:
+- Tăng huyết áp: Huyết áp tâm thu > 160mmHg. 
+- Bất thường chức năng thận: Thận nhân tạo chu kỳ hoặc ghép thận hoặc Creatinin huyết 
+thanh ≥ 220μmol/L; 
+- Bất thường chức năng gan: Bệnh gan mãn tính (Ví dụ: Xơ gan) hoặc thay đổi sinh hóa 
+chứng tỏ có giảm chức năng gan đáng kể (Ví dụ: Bilirubin tăng trên 2 lần giới hạn bình 
+thường trên, đi kèm Aspartate Aminotransferase/ Alanine Aminotransferase/Alkaline 
+Phosphatase tăng trên 3 lần giới hạn bình thường trên, .v.v.). 
+- Xuất huyết: Gồm tiền sử xuất huyết và/hoặc nguy cơ xuất huyết có sẵn như cơ địa xuất 
+huyết, thiếu máu. 
+- Bất thường INR: INR tăng/không ổn định hoặc thời gian đạt ngưỡng thấp (Ví dụ: 60%). 
+- Sử dụng thuốc hoặc rượu: Dùng đồng thời các thuốc như kháng ngưng tập tiểu cầu, 
+kháng viêm không Steroid hoặc nghiện rượu.
