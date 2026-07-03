@@ -16,7 +16,7 @@ except Exception:
 st.set_page_config(
     page_title="Hệ thống hỗ trợ đánh giá nguy cơ bệnh tim mạch",
     page_icon="🩺",
-    layout="wide", initial_sidebar_state="collapsed"
+    layout="wide"
 )
 
 
@@ -721,71 +721,6 @@ def add_history(input_data, risk_text, probability):
 
 
 def render_header():
-    st.markdown("""
-    <style>
-
-    header[data-testid="stHeader"]{
-        background:white;
-    }
-
-    section[data-testid="stSidebar"]{
-        display:none;
-    }
-
-    .block-container{
-        padding-top:1rem;
-        max-width:1200px;
-    }
-
-    .navbar{
-        display:flex;
-        justify-content:space-between;
-        align-items:center;
-        padding:16px 24px;
-        background:#005BAC;
-        color:white;
-        border-radius:14px;
-        margin-bottom:20px;
-    }
-
-    .hero-home{
-        background:linear-gradient(135deg,#005BAC,#2B8CDB);
-        padding:48px;
-        border-radius:18px;
-        color:white;
-        margin-bottom:24px;
-    }
-
-    .hero-home h1{
-        font-size:40px;
-        margin-bottom:10px;
-    }
-
-    </style>
-
-    <div class="navbar">
-        <div><b>🩺 CardioAI</b></div>
-        <div>
-            Trang chủ &nbsp;&nbsp;
-            Đánh giá &nbsp;&nbsp;
-            Kết quả &nbsp;&nbsp;
-            Trợ lý AI
-        </div>
-    </div>
-
-    """, unsafe_allow_html=True)
-
-    st.markdown("""
-    <div class="hero-home">
-        <h1>🩺 Hệ thống hỗ trợ đánh giá nguy cơ bệnh tim mạch</h1>
-
-        <p>
-        Ứng dụng AI sử dụng Machine Learning kết hợp RAG
-        giúp hỗ trợ đánh giá nguy cơ và tư vấn sức khỏe.
-        </p>
-
-    </div>
-    """, unsafe_allow_html=True)
     st.markdown("""
     <div class="hero-box">
         <div class="main-title">🩺 Hệ thống hỗ trợ đánh giá nguy cơ bệnh tim mạch</div>
