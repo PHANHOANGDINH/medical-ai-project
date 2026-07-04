@@ -16,3 +16,5 @@ langchain-chroma
 chromadb
 langchain-google-genai
 pypdf
+sentence-transformers
+langchain-huggingface
