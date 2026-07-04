@@ -15,6 +15,51 @@ except Exception:
     RAG_AVAILABLE = False
 
 
+try:
+    from src.ai_input_parser import parse_health_text_with_ai
+    AI_INPUT_AVAILABLE = True
+    AI_INPUT_IMPORT_ERROR = ""
+except Exception as e:
+    AI_INPUT_AVAILABLE = False
+    AI_INPUT_IMPORT_ERROR = str(e)
+
+
+try:
+    from streamlit_mic_recorder import speech_to_text
+    MIC_AVAILABLE = True
+    MIC_IMPORT_ERROR = ""
+except Exception as e:
+    MIC_AVAILABLE = False
+    MIC_IMPORT_ERROR = str(e)
+
+
+try:
+    from src.health_advisor import (
+        analyze_health_indicators,
+        get_overall_explanation_by_probability,
+        generate_suggested_questions
+    )
+    HEALTH_ADVISOR_AVAILABLE = True
+    HEALTH_ADVISOR_IMPORT_ERROR = ""
+except Exception as e:
+    HEALTH_ADVISOR_AVAILABLE = False
+    HEALTH_ADVISOR_IMPORT_ERROR = str(e)
+
+
+try:
+    from src.health_advisor import generate_ai_health_advice
+    AI_HEALTH_ADVISOR_AVAILABLE = True
+    AI_HEALTH_ADVISOR_IMPORT_ERROR = ""
+except Exception:
+    try:
+        from src.ai_health_advisor import generate_ai_health_advice
+        AI_HEALTH_ADVISOR_AVAILABLE = True
+        AI_HEALTH_ADVISOR_IMPORT_ERROR = ""
+    except Exception as e:
+        AI_HEALTH_ADVISOR_AVAILABLE = False
+        AI_HEALTH_ADVISOR_IMPORT_ERROR = str(e)
+
+
 st.set_page_config(
     page_title="CardioCare AI - Tư vấn tim mạch",
     page_icon="🫀",
@@ -174,7 +219,13 @@ FIELD_CONFIG = {
         "simple": "Số mạch vành chính ghi nhận bất thường nếu đã có chụp mạch.",
         "type": "select",
         "default": 0,
-        "options": {0: "0 mạch", 1: "1 mạch", 2: "2 mạch", 3: "3 mạch", 4: "4 mạch"},
+        "options": {
+            0: "0 mạch",
+            1: "1 mạch",
+            2: "2 mạch",
+            3: "3 mạch",
+            4: "4 mạch"
+        },
         "help": "Nếu chưa từng chụp mạch vành, có thể chọn 0."
     },
     "thal": {
@@ -278,14 +329,6 @@ FAQ_DATA = [
 ]
 
 
-PAGES = {
-    "home": "Trang chính",
-    "predict": "Dự đoán",
-    "guide": "Hướng dẫn",
-    "knowledge": "Kiến thức"
-}
-
-
 def init_state():
     if "page" not in st.session_state:
         st.session_state["page"] = "home"
@@ -303,6 +346,12 @@ def init_state():
 
     if "floating_chat_input_version" not in st.session_state:
         st.session_state["floating_chat_input_version"] = 0
+
+    if "voice_text" not in st.session_state:
+        st.session_state["voice_text"] = ""
+
+    if "ai_quick_input_text" not in st.session_state:
+        st.session_state["ai_quick_input_text"] = ""
 
 
 def go_to(page):
@@ -340,7 +389,17 @@ def load_artifacts():
     except Exception:
         training_results = []
 
-    return model, model_name, scaler, feature_names, training_results
+    try:
+        all_models = joblib.load("models/all_models.pkl")
+        if not isinstance(all_models, dict):
+            all_models = {}
+    except Exception:
+        all_models = {}
+
+    if str(model_name) not in all_models:
+        all_models[str(model_name)] = model
+
+    return model, model_name, scaler, feature_names, training_results, all_models
 
 
 def safe_load_model():
@@ -512,7 +571,6 @@ def add_chat_message(role, content):
             "content": content
         }
     )
-
     st.session_state["floating_chat_messages"] = st.session_state["floating_chat_messages"][-12:]
 
 
@@ -528,12 +586,7 @@ def ask_rag(question):
 
     try:
         result = get_rag_answer(question)
-
-        if isinstance(result, tuple):
-            answer = result[0]
-        else:
-            answer = result
-
+        answer = result[0] if isinstance(result, tuple) else result
         add_chat_message("assistant", str(answer))
     except Exception as e:
         add_chat_message(
@@ -618,13 +671,22 @@ def display_input_value(feature, value):
         return value
 
     if config["type"] == "select":
-        return config["options"].get(int(value), str(value))
+        try:
+            return config["options"].get(int(value), str(value))
+        except Exception:
+            return str(value)
 
     unit = config.get("unit", "")
-    if unit:
-        return f"{value:g} {unit}"
 
-    return f"{value:g}"
+    try:
+        value_text = f"{float(value):g}"
+    except Exception:
+        value_text = str(value)
+
+    if unit:
+        return f"{value_text} {unit}"
+
+    return value_text
 
 
 def render_input_field(feature):
@@ -685,6 +747,198 @@ def apply_preset(preset_name, feature_names):
         st.session_state[f"input_{feature}"] = preset.get(feature, default_value)
 
     st.rerun()
+
+
+def apply_ai_parsed_values(parsed_values, feature_names):
+    applied = {}
+
+    for feature, value in parsed_values.items():
+        if feature not in feature_names:
+            continue
+
+        config = FIELD_CONFIG.get(feature)
+        if not config:
+            continue
+
+        key = f"input_{feature}"
+
+        try:
+            if config["type"] == "select":
+                options = list(config["options"].keys())
+                parsed_value = int(value)
+
+                if parsed_value in options:
+                    st.session_state[key] = parsed_value
+                    applied[feature] = parsed_value
+
+            elif config["type"] == "number":
+                parsed_value = float(value)
+
+                min_value = config.get("min")
+                max_value = config.get("max")
+
+                if min_value is not None:
+                    parsed_value = max(parsed_value, float(min_value))
+
+                if max_value is not None:
+                    parsed_value = min(parsed_value, float(max_value))
+
+                if config.get("step") == 1:
+                    parsed_value = int(round(parsed_value))
+
+                st.session_state[key] = parsed_value
+                applied[feature] = parsed_value
+
+        except Exception:
+            continue
+
+    return applied
+
+
+def render_ai_voice_input(feature_names):
+    with st.expander("🎙️ Nhập nhanh bằng micro hoặc câu văn", expanded=True):
+        st.markdown("### Nhập bằng giọng nói")
+
+        st.info(
+            "Bạn có thể bấm nút micro bên dưới để nói các chỉ số. "
+            "Sau khi hệ thống nhận thành văn bản, bấm nút **🤖 Tự điền bằng AI** để điền vào form."
+        )
+
+        st.markdown(
+            """
+**Cách nói mẫu:**
+
+> Tôi 60 tuổi, nam, huyết áp 155, cholesterol 250, đường huyết cao, đau ngực khi vận động, nhịp tim tối đa 120, oldpeak 2.5.
+
+**Quy trình:**
+
+1. Bấm nút **🎙️ Bấm để nói**.
+2. Đọc câu chỉ số.
+3. Đợi văn bản hiện trong ô bên dưới.
+4. Bấm **🤖 Tự điền bằng AI**.
+5. Kiểm tra lại form.
+6. Bấm **📊 Dự đoán ngay**.
+            """
+        )
+
+        if MIC_AVAILABLE:
+            st.caption("Micro đã sẵn sàng. Trình duyệt có thể hỏi quyền sử dụng microphone.")
+
+            voice_text = speech_to_text(
+                language="vi-VN",
+                start_prompt="🎙️ Bấm để nói",
+                stop_prompt="⏹️ Dừng ghi âm",
+                just_once=True,
+                use_container_width=True,
+                key="speech_to_text_cardio"
+            )
+
+            if voice_text:
+                st.session_state["voice_text"] = voice_text
+                st.session_state["ai_quick_input_text"] = voice_text
+                st.success("Đã nhận giọng nói. Bạn kiểm tra văn bản rồi bấm Tự điền bằng AI.")
+        else:
+            st.warning("Chưa cài hoặc chưa import được thư viện micro.")
+            st.code("pip install streamlit-mic-recorder")
+            st.caption(MIC_IMPORT_ERROR)
+
+        user_text = st.text_area(
+            "Nội dung giọng nói hoặc câu mô tả chỉ số sức khỏe",
+            key="ai_quick_input_text",
+            height=120,
+            placeholder=(
+                "Ví dụ: Tôi 60 tuổi, nam, huyết áp 155, cholesterol 250, "
+                "đường huyết cao, đau ngực khi vận động, nhịp tim tối đa 120, oldpeak 2.5."
+            )
+        )
+
+        col_ai_1, col_ai_2 = st.columns([1, 2])
+
+        with col_ai_1:
+            parse_clicked = st.button(
+                "🤖 Tự điền bằng AI",
+                use_container_width=True,
+                key="ai_parse_button"
+            )
+
+        with col_ai_2:
+            st.caption(
+                "AI sẽ đọc câu bạn nhập, nhận diện tuổi, giới tính, huyết áp, cholesterol, đường huyết, đau ngực... rồi tự điền form."
+            )
+
+        if parse_clicked:
+            if user_text.strip() == "":
+                st.warning("Bạn hãy nhập hoặc nói một câu mô tả trước.")
+                return
+
+            if not AI_INPUT_AVAILABLE:
+                st.error("Chưa kích hoạt được AI Input Parser.")
+                st.write("Bạn cần kiểm tra file `src/ai_input_parser.py`.")
+                st.code(AI_INPUT_IMPORT_ERROR)
+                return
+
+            try:
+                with st.spinner("AI đang đọc câu mô tả và trích xuất chỉ số..."):
+                    parsed_values, notes = parse_health_text_with_ai(user_text.strip())
+
+                applied = apply_ai_parsed_values(parsed_values, feature_names)
+
+                st.session_state["ai_parse_last_result"] = {
+                    "raw_text": user_text.strip(),
+                    "parsed_values": parsed_values,
+                    "applied_values": applied,
+                    "notes": notes
+                }
+
+                st.session_state["ai_parse_notice"] = (
+                    f"AI đã tự điền {len(applied)} chỉ số vào form. "
+                    "Bạn hãy kiểm tra lại trước khi dự đoán."
+                )
+
+                st.rerun()
+
+            except Exception as e:
+                st.error("AI chưa thể trích xuất chỉ số từ câu vừa nhập.")
+                st.code(str(e))
+
+        last_notice = st.session_state.get("ai_parse_notice")
+
+        if last_notice:
+            st.success(last_notice)
+
+        last_result = st.session_state.get("ai_parse_last_result")
+
+        if last_result:
+            with st.expander("Xem kết quả AI đã trích xuất", expanded=False):
+                st.markdown("**Câu đã nhập:**")
+                st.write(last_result.get("raw_text", ""))
+
+                st.markdown("**Các chỉ số AI nhận diện được:**")
+                parsed_values = last_result.get("parsed_values", {})
+
+                if parsed_values:
+                    rows = []
+
+                    for feature, value in parsed_values.items():
+                        rows.append({
+                            "Chỉ số": FIELD_CONFIG.get(feature, {}).get("label", feature),
+                            "Giá trị AI nhận diện": display_input_value(feature, value)
+                        })
+
+                    st.dataframe(
+                        pd.DataFrame(rows),
+                        use_container_width=True,
+                        hide_index=True
+                    )
+                else:
+                    st.info("AI chưa nhận diện được chỉ số rõ ràng nào.")
+
+                notes = last_result.get("notes", [])
+
+                if notes:
+                    st.markdown("**Ghi chú của AI:**")
+                    for note in notes:
+                        st.markdown(f"- {note}")
 
 
 def validate_input(input_data):
@@ -851,6 +1105,281 @@ def add_history(input_data, risk_text, probability):
     st.session_state["history"] = st.session_state["history"][:5]
 
 
+def render_health_indicator_analysis(result):
+    input_data = result.get("input_data")
+    probability = result.get("probability")
+
+    if not input_data:
+        return
+
+    st.markdown("### Phân tích chi tiết từng chỉ số")
+
+    if not HEALTH_ADVISOR_AVAILABLE:
+        st.warning("Chưa kích hoạt được module health_advisor.py. Hệ thống đang dùng phần giải thích cũ.")
+
+        attention, good = generate_explanation(input_data)
+
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.markdown("#### Cần chú ý")
+            if attention:
+                for item in attention:
+                    st.warning(item)
+            else:
+                st.write("Chưa phát hiện yếu tố nổi bật cần cảnh báo.")
+
+        with col2:
+            st.markdown("#### Tương đối ổn")
+            if good:
+                for item in good:
+                    st.success(item)
+            else:
+                st.write("Chưa có yếu tố nào nổi bật ở nhóm tương đối ổn.")
+
+        return
+
+    indicator_analysis = result.get("indicator_analysis")
+
+    if indicator_analysis is None:
+        indicator_analysis = analyze_health_indicators(input_data)
+        result["indicator_analysis"] = indicator_analysis
+        st.session_state["last_prediction_result"] = result
+
+    overall_explanation = result.get("overall_explanation")
+
+    if overall_explanation is None and probability is not None:
+        overall_explanation = get_overall_explanation_by_probability(probability)
+        result["overall_explanation"] = overall_explanation
+        st.session_state["last_prediction_result"] = result
+
+    if overall_explanation:
+        st.info(overall_explanation.get("message", ""))
+
+    danger_items = indicator_analysis.get("danger", [])
+    warning_items = indicator_analysis.get("warning", [])
+    normal_items = indicator_analysis.get("normal", [])
+    general_advice = indicator_analysis.get("general_advice", [])
+
+    if danger_items:
+        st.markdown("#### Chỉ số nguy cơ cao")
+        for item in danger_items:
+            with st.expander(f"{item.get('title')} - {item.get('value')}", expanded=True):
+                st.error(item.get("explanation", ""))
+                st.markdown(f"**Gợi ý:** {item.get('advice', '')}")
+
+    if warning_items:
+        st.markdown("#### Chỉ số cần theo dõi")
+        for item in warning_items:
+            with st.expander(f"{item.get('title')} - {item.get('value')}", expanded=False):
+                st.warning(item.get("explanation", ""))
+                st.markdown(f"**Gợi ý:** {item.get('advice', '')}")
+
+    if normal_items:
+        st.markdown("#### Chỉ số tương đối ổn")
+        for item in normal_items:
+            with st.expander(f"{item.get('title')} - {item.get('value')}", expanded=False):
+                st.success(item.get("explanation", ""))
+                st.markdown(f"**Gợi ý:** {item.get('advice', '')}")
+
+    if general_advice:
+        st.markdown("#### Khuyến nghị chung")
+        for advice in general_advice:
+            st.info(advice)
+
+    try:
+        suggested_questions = result.get("suggested_questions")
+
+        if suggested_questions is None:
+            suggested_questions = generate_suggested_questions(indicator_analysis)
+            result["suggested_questions"] = suggested_questions
+            st.session_state["last_prediction_result"] = result
+
+        if suggested_questions:
+            st.markdown("#### Câu hỏi gợi ý cho chatbot")
+            for q in suggested_questions:
+                st.markdown(f"- {q}")
+    except Exception:
+        pass
+
+
+def render_ai_advice_section(result):
+    if not result:
+        return
+
+    st.markdown("### Lời khuyên AI cá nhân hóa")
+
+    st.caption(
+        "Phần này dùng AI để tổng hợp lời khuyên dựa trên tuổi, giới tính, các chỉ số đã nhập, "
+        "kết quả dự đoán và phân tích chỉ số. Nội dung chỉ mang tính tham khảo."
+    )
+
+    if not AI_HEALTH_ADVISOR_AVAILABLE:
+        st.info(
+            "Chưa kích hoạt module lời khuyên AI cá nhân hóa. "
+            "Bạn vẫn có thể dùng phần phân tích chỉ số và chatbot RAG."
+        )
+        return
+
+    if st.button("🤖 Tạo lời khuyên AI cá nhân hóa", use_container_width=True, key="create_ai_health_advice"):
+        input_data = result.get("input_data")
+        probability = result.get("probability")
+        indicator_analysis = result.get("indicator_analysis")
+
+        if input_data is None or probability is None:
+            st.warning("Chưa có đủ dữ liệu để tạo lời khuyên AI.")
+            return
+
+        if indicator_analysis is None:
+            if HEALTH_ADVISOR_AVAILABLE:
+                indicator_analysis = analyze_health_indicators(input_data)
+            else:
+                st.warning("Chưa có phân tích chỉ số để gửi cho AI.")
+                return
+
+        try:
+            with st.spinner("AI đang phân tích và tạo lời khuyên cá nhân hóa..."):
+                ai_advice, ai_docs = generate_ai_health_advice(
+                    input_data=input_data,
+                    indicator_analysis=indicator_analysis,
+                    probability=probability
+                )
+
+            result["ai_advice"] = ai_advice
+            result["ai_docs"] = ai_docs
+            st.session_state["last_prediction_result"] = result
+            st.success("Đã tạo lời khuyên AI cá nhân hóa.")
+            st.rerun()
+        except Exception as e:
+            st.error("Chưa thể tạo lời khuyên AI cá nhân hóa.")
+            st.code(str(e))
+
+    ai_advice = result.get("ai_advice")
+
+    if ai_advice:
+        st.markdown(ai_advice)
+
+        ai_docs = result.get("ai_docs", [])
+
+        if ai_docs:
+            with st.expander("Tài liệu tham khảo AI đã truy xuất", expanded=False):
+                for i, doc in enumerate(ai_docs, start=1):
+                    st.markdown(f"**Nguồn {i}:** {doc.metadata}")
+                    st.write(str(doc.page_content)[:800])
+
+
+def training_results_to_dataframe(training_results):
+    try:
+        if isinstance(training_results, dict):
+            df = pd.DataFrame(training_results).T
+            df.index.name = "Mô hình"
+            return df.reset_index()
+
+        df = pd.DataFrame(training_results)
+        return df
+    except Exception:
+        return pd.DataFrame()
+
+
+def render_technical_area(model_name, training_results, all_models):
+    st.divider()
+    st.markdown("## 🔧 Khu vực kỹ thuật")
+
+    st.caption(
+        "Khu vực này dùng cho demo kỹ thuật: xem chỉ số mô hình, chọn mô hình khác để dự đoán và so sánh kết quả."
+    )
+
+    st.markdown(f"**Mô hình mặc định đang dùng:** `{model_name}`")
+
+    results_df = training_results_to_dataframe(training_results)
+
+    if not results_df.empty:
+        with st.expander("📊 Bảng chỉ số đánh giá mô hình", expanded=False):
+            st.dataframe(results_df, use_container_width=True, hide_index=True)
+
+    latest_input_scaled = st.session_state.get("latest_input_scaled")
+
+    if not all_models:
+        st.info("Chưa có file `models/all_models.pkl`, hiện chỉ dùng mô hình mặc định.")
+        return
+
+    with st.expander("🧪 Dự đoán bằng mô hình khác", expanded=True):
+        model_names = list(all_models.keys())
+
+        selected_model_name = st.selectbox(
+            "Chọn mô hình",
+            model_names,
+            index=model_names.index(model_name) if model_name in model_names else 0,
+            key="technical_selected_model_main"
+        )
+
+        if latest_input_scaled is None:
+            st.info("Hãy nhập thông tin và bấm dự đoán trước, sau đó khu vực này sẽ dự đoán lại bằng mô hình bạn chọn.")
+            return
+
+        selected_model = all_models[selected_model_name]
+
+        try:
+            tech_prediction = int(selected_model.predict(latest_input_scaled)[0])
+
+            tech_probability = None
+            if hasattr(selected_model, "predict_proba"):
+                tech_probability = float(selected_model.predict_proba(latest_input_scaled)[0][1])
+
+            col1, col2 = st.columns(2)
+
+            with col1:
+                st.markdown(f"**Mô hình đang chọn:** `{selected_model_name}`")
+
+                if tech_prediction == 1:
+                    st.error("Kết quả: Có nguy cơ")
+                else:
+                    st.success("Kết quả: Nguy cơ thấp")
+
+            with col2:
+                if tech_probability is not None:
+                    st.metric("Xác suất nguy cơ", f"{tech_probability * 100:.2f}%")
+                else:
+                    st.metric("Xác suất nguy cơ", "Không có")
+
+        except Exception as e:
+            st.warning("Không thể dự đoán bằng mô hình này.")
+            st.code(str(e))
+
+    with st.expander("📌 So sánh nhanh tất cả mô hình", expanded=False):
+        if latest_input_scaled is None:
+            st.info("Hãy dự đoán trước để xem bảng so sánh.")
+            return
+
+        compare_rows = []
+
+        for name, m in all_models.items():
+            try:
+                pred = int(m.predict(latest_input_scaled)[0])
+
+                prob = None
+                if hasattr(m, "predict_proba"):
+                    prob = float(m.predict_proba(latest_input_scaled)[0][1])
+
+                compare_rows.append({
+                    "Mô hình": name,
+                    "Dự đoán": "Có nguy cơ" if pred == 1 else "Nguy cơ thấp",
+                    "Xác suất nguy cơ": f"{prob * 100:.2f}%" if prob is not None else "Không có"
+                })
+            except Exception:
+                compare_rows.append({
+                    "Mô hình": name,
+                    "Dự đoán": "Lỗi",
+                    "Xác suất nguy cơ": "Không có"
+                })
+
+        st.dataframe(
+            pd.DataFrame(compare_rows),
+            use_container_width=True,
+            hide_index=True
+        )
+
+
 def render_model_explanation(training_results=None):
     html_block(
         '<div class="plain-box">'
@@ -862,21 +1391,25 @@ def render_model_explanation(training_results=None):
     model_cards = []
 
     try:
-        if training_results is not None and len(training_results) > 0:
-            df = pd.DataFrame(training_results)
+        df = training_results_to_dataframe(training_results)
 
+        if not df.empty:
             name_col = None
+
             for possible_col in ["model", "model_name", "Mô hình", "name"]:
                 if possible_col in df.columns:
                     name_col = possible_col
                     break
+
+            if name_col is None and "index" in df.columns:
+                name_col = "index"
 
             if name_col:
                 for _, row in df.head(3).iterrows():
                     model_name = str(row.get(name_col, "Mô hình học máy"))
                     score_parts = []
 
-                    for col in ["accuracy", "Accuracy", "f1", "F1", "roc_auc", "ROC_AUC", "auc", "AUC"]:
+                    for col in ["Accuracy", "Precision", "Recall", "F1-score", "f1", "F1", "AUC", "roc_auc"]:
                         if col in df.columns:
                             try:
                                 score_parts.append(f"{col}: {float(row[col]):.3f}")
@@ -896,9 +1429,9 @@ def render_model_explanation(training_results=None):
     if not model_cards:
         model_cards = [
             {
-                "name": "Logistic Regression",
-                "desc": "Mô hình tuyến tính, dễ giải thích, thường dùng làm mô hình nền để so sánh.",
-                "score": "Ưu điểm: dễ hiểu, nhẹ, chạy nhanh."
+                "name": "KNN",
+                "desc": "Mô hình dự đoán dựa trên các điểm dữ liệu gần nhất.",
+                "score": "Ưu điểm: dễ hiểu, phù hợp demo học máy."
             },
             {
                 "name": "Random Forest",
@@ -906,8 +1439,8 @@ def render_model_explanation(training_results=None):
                 "score": "Ưu điểm: ổn định, phù hợp dữ liệu bảng."
             },
             {
-                "name": "Gradient Boosting / XGBoost",
-                "desc": "Mô hình tăng cường tuần tự, thường cho kết quả tốt trong bài toán dự đoán nguy cơ.",
+                "name": "XGBoost",
+                "desc": "Mô hình boosting mạnh, thường cho kết quả tốt trong bài toán dự đoán dữ liệu có cấu trúc.",
                 "score": "Ưu điểm: hiệu quả cao, bắt được nhiều mẫu dữ liệu phức tạp."
             }
         ]
@@ -930,7 +1463,7 @@ def render_index_summary():
     html_block(
         '<div class="index-summary">'
             '<h3>Giải thích nhanh các chỉ số</h3>'
-            '<p><b>Tuổi</b> và <b>giới tính</b> giúp mô hình ước lượng nguy cơ nền. <b>Huyết áp</b> phản ánh áp lực máu lên thành mạch; nếu cao kéo dài có thể làm tăng nguy cơ đột quỵ, suy tim và bệnh mạch vành. <b>Cholesterol</b> liên quan đến xơ vữa động mạch. <b>Đường huyết lúc đói</b> giúp nhận biết nguy cơ rối loạn đường máu hoặc đái tháo đường. <b>Điện tâm đồ, nhịp tim tối đa, đau ngực khi vận động, độ chênh ST</b> là các thông tin hỗ trợ đánh giá tình trạng tim khi nghỉ hoặc khi gắng sức. Nếu bạn không có đầy đủ chỉ số, có thể giữ mặc định hoặc chọn không rõ, nhưng kết quả sẽ chỉ mang tính tham khảo hơn.</p>'
+            '<p><b>Tuổi</b> và <b>giới tính</b> giúp mô hình ước lượng nguy cơ nền. <b>Huyết áp</b> phản ánh áp lực máu lên thành mạch; nếu cao kéo dài có thể làm tăng nguy cơ đột quỵ, suy tim và bệnh mạch vành. <b>Cholesterol</b> liên quan đến xơ vữa động mạch. <b>Đường huyết lúc đói</b> giúp nhận biết nguy cơ rối loạn đường máu hoặc đái tháo đường. <b>Điện tâm đồ, nhịp tim tối đa, đau ngực khi vận động, độ chênh ST</b> là các thông tin hỗ trợ đánh giá tình trạng tim khi nghỉ hoặc khi gắng sức.</p>'
         '</div>'
     )
 
@@ -1045,13 +1578,13 @@ def page_predict():
 python -m src.train_model
 python -m src.evaluate_model
 python -m src.explain_model
-python -m streamlit run app.py
+streamlit run app.py
             """
         )
         st.code(error)
         return
 
-    model, model_name, scaler, feature_names, training_results = model_pack
+    model, model_name, scaler, feature_names, training_results, all_models = model_pack
 
     if not feature_names:
         feature_names = DEFAULT_FEATURES
@@ -1060,26 +1593,10 @@ python -m streamlit run app.py
         result = st.session_state["last_prediction_result"]
         render_result_box(result["risk_text"], result["risk_code"], result["probability"])
 
-        attention, good = generate_explanation(result["input_data"])
+        with st.expander("Xem giải thích và phân tích kết quả", expanded=True):
+            render_health_indicator_analysis(result)
 
-        with st.expander("Xem giải thích kết quả", expanded=True):
-            col1, col2 = st.columns(2)
-
-            with col1:
-                st.markdown("### Cần chú ý")
-                if attention:
-                    for item in attention:
-                        st.markdown(f"- {item}")
-                else:
-                    st.write("Chưa phát hiện yếu tố nổi bật cần cảnh báo.")
-
-            with col2:
-                st.markdown("### Tương đối ổn")
-                if good:
-                    for item in good:
-                        st.markdown(f"- {item}")
-                else:
-                    st.write("Chưa có yếu tố nào nổi bật ở nhóm tương đối ổn.")
+        render_ai_advice_section(result)
 
         st.divider()
 
@@ -1102,6 +1619,10 @@ python -m streamlit run app.py
     with p3:
         if st.button("🔴 Mẫu nguy cơ cao", use_container_width=True):
             apply_preset("high", feature_names)
+
+    st.divider()
+
+    render_ai_voice_input(feature_names)
 
     st.divider()
 
@@ -1135,13 +1656,32 @@ python -m streamlit run app.py
 
         risk_text, risk_code = get_risk_level(prediction, probability)
 
-        st.session_state["last_prediction_result"] = {
+        result = {
             "input_data": input_data,
+            "input_scaled": input_scaled,
             "prediction": prediction,
             "probability": probability,
             "risk_text": risk_text,
             "risk_code": risk_code
         }
+
+        if HEALTH_ADVISOR_AVAILABLE:
+            try:
+                indicator_analysis = analyze_health_indicators(input_data)
+                overall_explanation = get_overall_explanation_by_probability(probability if probability is not None else prediction)
+                suggested_questions = generate_suggested_questions(indicator_analysis)
+
+                result["indicator_analysis"] = indicator_analysis
+                result["overall_explanation"] = overall_explanation
+                result["suggested_questions"] = suggested_questions
+            except Exception:
+                pass
+
+        st.session_state["last_prediction_result"] = result
+        st.session_state["latest_input_data"] = input_data
+        st.session_state["latest_input_scaled"] = input_scaled
+        st.session_state["latest_probability"] = probability
+        st.session_state["latest_prediction"] = prediction
 
         add_history(input_data, risk_text, probability)
         st.rerun()
@@ -1158,6 +1698,8 @@ python -m streamlit run app.py
         st.markdown("### Lịch sử đánh giá gần đây")
         st.dataframe(pd.DataFrame(st.session_state["history"]), use_container_width=True)
 
+    render_technical_area(model_name, training_results, all_models)
+
 
 def page_guide():
     section_title(
@@ -1169,9 +1711,11 @@ def page_guide():
         '<div class="guide-box">'
             '<h3>1. Cách sử dụng nhanh</h3>'
             '<p>Đầu tiên, bạn vào trang <b>Dự đoán</b>, nhập các thông tin sức khỏe mà bạn biết. Nếu chưa có kết quả xét nghiệm hoặc không rõ một chỉ số nào đó, bạn có thể giữ giá trị mặc định hoặc chọn mục không rõ. Sau đó bấm <b>Dự đoán ngay</b>, kết quả sẽ hiển thị ở đầu trang.</p>'
-            '<h3>2. Cách hiểu kết quả</h3>'
+            '<h3>2. Nhập bằng micro</h3>'
+            '<p>Ở trang Dự đoán, mở khu vực <b>Nhập nhanh bằng micro hoặc câu văn</b>, bấm nút <b>Bấm để nói</b>, đọc các chỉ số, sau đó bấm <b>Tự điền bằng AI</b>. Cuối cùng kiểm tra lại form và bấm <b>Dự đoán ngay</b>.</p>'
+            '<h3>3. Cách hiểu kết quả</h3>'
             '<p>Kết quả gồm ba mức: <b>Nguy cơ thấp</b>, <b>Cần theo dõi</b> và <b>Nguy cơ cao</b>. Đây là kết quả hỗ trợ tham khảo từ mô hình học máy, không phải kết luận chẩn đoán. Nếu có triệu chứng bất thường, bạn vẫn nên đi khám hoặc liên hệ nhân viên y tế.</p>'
-            '<h3>3. Khi nào không nên chờ hệ thống?</h3>'
+            '<h3>4. Khi nào không nên chờ hệ thống?</h3>'
             '<p>Nếu có đau ngực dữ dội hoặc kéo dài, đau lan tay trái, hàm, lưng, khó thở, vã mồ hôi, ngất, yếu liệt hoặc nói khó, bạn nên đi cấp cứu ngay.</p>'
         '</div>'
     )
@@ -1203,7 +1747,7 @@ def page_guide():
     model_pack, _ = safe_load_model()
 
     if model_pack:
-        model, model_name, scaler, feature_names, training_results = model_pack
+        model, model_name, scaler, feature_names, training_results, all_models = model_pack
         render_model_explanation(training_results)
 
         html_block(
